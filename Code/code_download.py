@@ -30,7 +30,7 @@ def upzip(zip_src, dst_dir):
     zip_src = fz.namelist()[0]
     fz.extract(zip_src, dst_dir)
     fz = z.ZipFile(zip_src, 'r')
-    fz.extract('.mooctest/answer.py', dst_dir)
+    fz.extract('main.py', dst_dir)
 
 
 def DL(data: dict, path):
@@ -40,18 +40,18 @@ def DL(data: dict, path):
     for case_id, details in data.items():
         if case_id not in haveSorted:
             records = details["records"]
-            user_count = 0
+            # user_count = 0
             for record in records:
                 user_id = record["user_id"]
                 for up in record["upload_records"]:
-                    upload_id = up["upload_id"]
+                    upload_id = str(up["upload_id"])
                     code_url = up["code_url"]
                     try:
                         download(case_id, user_id, upload_id, code_url, path)
                     except:
                         continue
-                user_count += 1
-                print(user_id + "------" + str(user_count))
+                # user_count += 1
+                # print(user_id + "------" + str(user_count))
             case_count += 1
             print(case_id + "-------------------------" + str(case_count))
             haveSorted.append(case_id)
@@ -74,20 +74,20 @@ def download(case_id, user_id, upload_id, url, path):
     path = os.getcwd()
 
     # 下载
-    if str(upload_id) not in os.listdir(path):
-        #urllib.request.urlretrieve(url, filename, callbackfunc)
+    if (upload_id + ".py") not in os.listdir(path):
+        # urllib.request.urlretrieve(url, filename, callbackfunc)
         r = requests.get(url)
         with open(filename, 'wb') as f:
             f.write(r.content)
         upzip(filename, os.getcwd())
-        os.rename(".mooctest", str(upload_id))
+        os.rename("main.py", upload_id + ".py")
         for file in os.listdir(path):
             if file.endswith(".zip"):
                 os.remove(file)
 
 
 if __name__ == '__main__':
-    filename = 'data/test_result.json'
+    filename = 'data/Database of Mooctest.json'
     haveSorted = []
     delete(haveSorted, filename)
 
@@ -95,5 +95,5 @@ if __name__ == '__main__':
         res = f.read()
         data = json.loads(res)
         print(len(data.keys()))
-        os.chdir(os.getcwd() + "\\Code_Records")
+        os.chdir(os.getcwd() + "\\CodeRecords")
         DL(data, os.getcwd())

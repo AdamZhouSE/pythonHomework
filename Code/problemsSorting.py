@@ -2,6 +2,7 @@ import json
 import numpy as np
 import pandas as pd
 import cal_num_of_line as cl
+import detect_if_else_structure as ds
 
 pd.set_option('display.unicode.ambiguous_as_wide', True)
 pd.set_option('display.unicode.east_asian_width', True)
@@ -29,7 +30,7 @@ def sorting(data: list):
     return analyse(problems)
 
 
-def save_as_file(data: list, filename):
+def save_as_file(data: dict, filename):
     with open(filename, 'w', encoding='utf-8')as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
@@ -41,17 +42,24 @@ def analyse(data: list):
         data[case_id]["average_score"] = sum([record["final_score"] for record in records]) / len(records)
         data[case_id]["user_count"] = len(records)
 
+        # 检测代码行数 & 面向用例情况
         for record in records:
             user_id = record["user_id"]
             for up in record["upload_records"]:
                 upload_id = str(up["upload_id"])
-                filepath = 'Code_Records//' + case_id + "//" + user_id + "//" + upload_id + "//" + "answer.py"
+                filepath = 'CodeRecords//' + case_id + "//" + user_id + "//" + upload_id + ".py"
                 try:
+                    #代码行数
                     lst = cl.calc_line_num(filepath)
                     up["num_of_line"] = lst[0]
+
+                    # 面向用例情况
+                    flag, percentage = ds.cal_if_else_structure(filepath)
+                    up["is_case-oriented"] = flag
                 except:
                     continue
     return data
+
 
 if __name__ == '__main__':
     f = open('data/test_data.json', encoding='utf-8')
