@@ -1,0 +1,5 @@
+tmp=input().split()
+k=int(tmp[0])
+m=int(tmp[1])
+str1=input()
+n=int(input())

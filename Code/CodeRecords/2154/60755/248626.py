@@ -1,0 +1,5 @@
+fro = input()
+l = list(fro)
+l.reverse()
+to = "".join(l)
+print(fro == to)

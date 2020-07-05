@@ -1,0 +1,19 @@
+string=input().strip("[")
+string=string.strip("]")
+nums=string.split(",")
+nums=list(map(int,nums))
+target=int(input())
+left,right=0,len(nums)-1
+j=False
+while(left<=right):
+    mid=left+(right-left)//2
+    if(nums[mid]==target):
+        print(mid)
+        j=True
+        break
+    elif(target<nums[mid]):
+        right=mid-1
+    else:
+        left=mid+1
+if(not j):
+    print(-1)

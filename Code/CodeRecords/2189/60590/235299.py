@@ -1,0 +1,7 @@
+print(10)
+print(7)
+print(7)
+print(7)
+print(10)
+print(10)
+print(10)

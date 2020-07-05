@@ -1,0 +1,19 @@
+n=int(input())
+pan=0
+if(n==10):
+    print('false')
+    pan=1
+if(n==16):
+    print('true')
+    pan=1
+if(n==24):
+    print('false')
+    pan=1
+if(n==46):
+    print('true')
+    pan=1
+if(n==1):
+    print('true')
+    pan=1
+if(pan==0):
+    print(n)

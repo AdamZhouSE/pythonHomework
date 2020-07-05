@@ -1,0 +1,11 @@
+wide=input().split(" ")
+n=int(wide[0])
+d=int(wide[1])
+m=int(input())
+for i in range(m):
+    coordinate=input().split(" ")
+    x,y=int(coordinate[0]),int(coordinate[1])
+    x_sum=abs(x+y-d)+abs(x+y-2*n+d)
+    y_sum=abs(x-y-d)+abs(x-y+d)
+    if x_sum==2*(n-d) and y_sum==2*d:print("YES")
+    else:print("NO")

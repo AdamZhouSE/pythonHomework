@@ -1,0 +1,10 @@
+t = int(input())
+for i in range(0,t):
+    n = int(input())
+    numLst = list(map(int,input().split(' ')))
+    numLst = list(map(lambda x : x % 3,numLst))
+    two = numLst.count(2)
+    one = numLst.count(1)
+    zero = numLst.count(0)
+    total = zero + min([one,two]) + int(abs(one - two) / 3)
+    print(total)

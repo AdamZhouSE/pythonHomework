@@ -1,0 +1,9 @@
+lenth=int(input())
+nums=list(map(int,input().split()))
+nums.sort()
+ptr=0
+res=0
+while(ptr<lenth/2):
+    res+=(nums[ptr]+nums[lenth-ptr-1])*(nums[ptr]+nums[lenth-ptr-1])
+    ptr+=1
+print(res)

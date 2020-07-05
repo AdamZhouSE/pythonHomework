@@ -1,0 +1,5 @@
+n = int(input())
+# sumOfIndex = sum(list(map(int, input().split(' '))))
+# goal = sum(list(range(1, n+1)))
+# print(goal - sumOfIndex)
+print(sum(list(range(1, n+1))) - sum(list(map(int, input().split(' ')))))

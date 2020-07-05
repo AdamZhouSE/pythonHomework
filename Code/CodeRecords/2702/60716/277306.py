@@ -1,0 +1,2 @@
+strs = input()
+print(strs)

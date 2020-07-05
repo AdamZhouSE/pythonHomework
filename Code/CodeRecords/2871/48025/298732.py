@@ -1,0 +1,15 @@
+n=int(input())
+arr=list(map(int,input().split()))
+num_1=arr.count(1)
+num_2=arr.count(2)
+counter=0
+while(num_2>0):
+    if(num_1==0):
+        break;
+    num_1-=1
+    num_2-=1
+    counter+=1
+while((num_1/3)>=1):
+    counter+=1
+    num_1-=3
+print(counter)

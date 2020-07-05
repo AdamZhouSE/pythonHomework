@@ -1,0 +1,7 @@
+a=int(input())
+n=list(map(int,input().split()))
+mi=n.index(1)
+ma=n.index(a)
+da=max(a-ma-1,ma-0)
+di=max(a-mi-1,mi-0)
+print(max(da,di))

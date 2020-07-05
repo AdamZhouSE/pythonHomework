@@ -1,0 +1,1 @@
+ll=[int(i) for i in ele for ele in input().strip('[|]').split('],[')]

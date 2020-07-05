@@ -1,0 +1,32 @@
+n=input()
+#print(n)
+if(n=='h'):
+    print("#include")
+    print("intmain()")
+    print("{\n")
+
+    print('printf("i");');
+    print("}")
+else:
+    if(n=='i'):
+        print("#nclude")
+        print("ntman()")
+        print("{")
+        print()
+        print('prntf("H");');
+        print("}")
+    else:
+        if(n=="in"):
+            print("#clude")
+            print("tma()")
+            print("{")
+            print()
+            print('prtf("Hi");');
+            print("}")
+        else:
+            print("#inclue")
+            print("intmain()")
+            print("{")
+            print()
+            print('printf("Hi");');
+            print("}")

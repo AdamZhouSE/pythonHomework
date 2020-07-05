@@ -1,0 +1,12 @@
+n=int(input())
+num=list(map(int,input().split()))
+one=num.count(1)
+two=num.count(2)
+out=0
+if(one>two):
+    out+=two
+    one-=two
+    out+=int(one/3)
+else:
+    out+=one
+print(out)

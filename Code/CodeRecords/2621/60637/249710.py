@@ -1,0 +1,20 @@
+nums=input().split(',')
+i=0
+record=0
+while((int)(nums[i])<=0&i<len(nums)):
+    i+=1
+if(i==len(nums)):
+    record=nums[0]
+    for num in nums:
+        if((int)(num)>record):
+            record=(int)(num)
+else:
+    sum=0
+    while(i<len(nums)):
+        sum+=(int)(nums[i])
+        if(sum>record):
+            record=sum
+        if(sum<0):
+            sum=0
+        i+=1
+print(record)

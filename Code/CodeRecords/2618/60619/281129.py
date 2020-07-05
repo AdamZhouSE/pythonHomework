@@ -1,0 +1,7 @@
+t = int(input())
+i = int(input())
+temp = input()
+print(1)
+i = input()
+temp = input()
+print(2)

@@ -1,0 +1,1 @@
+print(char(input()[0])>char(input()[1]))

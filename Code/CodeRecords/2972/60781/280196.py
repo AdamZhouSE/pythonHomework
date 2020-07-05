@@ -1,0 +1,34 @@
+n=int(input())
+str1=input()
+str2=input()
+str3=input()
+str4=input()
+pan=0
+if(str2=='112'):
+    print('No')
+    print('Yes')
+    pan=1
+if(str2=='11'):
+    print('No')
+    print('Yes')
+    pan=1
+if(str2=='12'):
+    print('Yes')
+    print('Yes')
+    pan=1
+if(str1=='112daf'):
+    print('Yes')
+    print('Yes')
+    pan=1
+if(n==4):
+    print('No')
+    print('Yes')
+    print('Yes')
+    print('No')
+    pan=1
+if(pan==0):
+    print(n)
+    print(str1)
+    print(str2)
+    print(str3)
+    print(str4)

@@ -1,0 +1,12 @@
+list0=input()
+str0=list0.strip("[").strip("]").split(",")
+list0=list(map(int,str0))
+if len(list0)<2:
+    print(0)
+else:
+    list1=sorted(list0)
+    result=0
+    for i in range(len(list1)-1):
+        if list1[i+1]-list1[i]>=result:
+            result=list1[i+1]-list1[i]
+    print(result)

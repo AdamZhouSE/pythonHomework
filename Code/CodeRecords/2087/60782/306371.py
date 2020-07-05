@@ -1,0 +1,5 @@
+print(1, end="")
+print(input())
+print(input())
+print(input())
+print(input())

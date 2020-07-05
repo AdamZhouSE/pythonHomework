@@ -1,0 +1,30 @@
+x=int(input())
+y=int(input())
+neg1=False
+neg2=False
+if(x<0):
+    neg1=True
+if(y<0):
+    neg2=True
+res=0    
+if(neg1^neg2):
+    if(neg1):
+        while(x<=-y):
+            x+=y
+            res-=1
+    else:
+        while(x>=-y):
+            x+=y
+            res-=1
+            
+else:
+    if(neg1):
+        while(x<=y):
+            x-=y
+            res+=1
+    else:
+        while(x>=y):
+            x-=y
+            res+=1
+            
+print(res)

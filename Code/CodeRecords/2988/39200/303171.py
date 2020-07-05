@@ -1,0 +1,6 @@
+n = int(input())
+string = input()
+m = int(input())
+print(string[m::])
+print(string)
+print(m)

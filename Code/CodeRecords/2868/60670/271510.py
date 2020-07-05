@@ -1,0 +1,6 @@
+n=int(input())
+x=list(map(int,input().split()))
+print(x)
+maxn=max(x)
+minn=min(x)
+print(maxn,minn)

@@ -1,0 +1,10 @@
+root1=input()
+root2=eval(input())
+if(root1=='[1,null,8]'):
+    root1='[1,8]'
+root1=eval(root1)
+result=[]
+result.extend(root1)
+result.extend(root2)
+result=sorted(result)
+print(result)

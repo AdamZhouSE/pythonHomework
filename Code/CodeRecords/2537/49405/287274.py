@@ -1,0 +1,1 @@
+print(sorted(eval(input()), reverse=True)[int(input()) - 1])

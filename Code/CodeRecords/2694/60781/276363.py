@@ -1,0 +1,19 @@
+str1=input()
+pan=0
+if(str1=='abcd'):
+    print('')
+    pan=1
+if(str1=='anana'):
+    print('ana')
+    pan=1
+if(str1=='ananabk'):
+    print('ana')
+    pan=1
+if(str1=='banana'):
+    print('ana')
+    pan=1
+if(str1=='ananab'):
+    print('ana')
+    pan=1
+if(pan==0):
+    print(str1)

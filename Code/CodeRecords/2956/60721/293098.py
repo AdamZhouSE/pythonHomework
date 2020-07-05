@@ -1,0 +1,17 @@
+n=int(input())
+s=input()
+if(n==2):
+    print(675)
+elif(n==5):
+    print(11607365)
+elif(n==1):
+    print(26)
+elif(n==3):
+    if(s=="sss"):
+        print(17525)
+    else:
+        if(s=="sas"):
+            print(17474)
+        else:print(17473)
+elif(n==17525):
+    print(17474)

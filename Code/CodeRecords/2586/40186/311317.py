@@ -1,0 +1,7 @@
+a = int(input())
+b = int(input())
+c = int(input())
+x = min(a,b,c)
+y = a+b+c-min(a,b,c)-max(a,b,c)
+z = max(a,b,c)
+print([min(z-x-2,(y-x>2)+1,(z-y>2)+1),z-x-2])

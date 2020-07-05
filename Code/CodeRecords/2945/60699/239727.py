@@ -1,0 +1,40 @@
+str1 = input()
+set1 = {'b','o','y','bo','oy','boy'}
+set2 = {'g','i','r','l','gi','ir','rl','gir','irl','girl'}
+num1=0
+num2=0
+index=0
+while index<len(str1):
+    flag=False
+    if index+3<=len(str1) and str1[index:index+3] in set1:
+        num1+=1
+        index+=3
+        flag=True
+    elif index+2<=len(str1) and str1[index:index+2] in set1:
+        num1+=1
+        index+=2
+        flag=True
+    elif index<=len(str1) and str1[index] in set1:
+        num1+=1
+        index+=1
+        flag=True
+    elif index+4<=len(str1) and str1[index:index+4] in set2:
+        num2+=1
+        index+=4
+        flag=True
+    elif index+3<=len(str1) and str1[index:index+3] in set2:
+        num2+=1
+        index+=3
+        flag=True
+    elif index+2<=len(str1) and str1[index:index+2] in set2:
+        num2+=1
+        index+=2
+        flag=True
+    elif index<=len(str1) and str1[index] in set2:
+        num2+=1
+        index+=1
+        flag=True
+    if flag==False:
+        index+=1
+print(num1)
+print(num2,end='')

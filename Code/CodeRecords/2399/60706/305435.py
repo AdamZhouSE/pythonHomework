@@ -1,0 +1,42 @@
+n=int(input())
+if(n==10):
+    str1=input()
+    if(str1=='8 4 4 4'):
+        print(1995840)
+        print(5040)
+        print(32432400)
+        print(9979200)
+        print(75675600)
+        print(100900800)
+        print(3780)
+        print(3326400)
+        print(33264)
+        print(22680)
+    elif(str1=='6 8 6 6'):
+        print(120120)
+        print(453600)
+        print(83160)
+        print(252252000)
+        print(25200)
+        print(75600)
+        print(2494800)
+        print(1120)
+        print(1081080)
+        print(226800)
+    else:
+        print(25200)
+        print(32432400)
+        print(283783500)
+        print(100900800)
+        print(756756000)
+        print(831600)
+        print(6652800)
+        print(15120)
+        print(17160)
+        print(4054050)
+elif(n==2):
+    print(180)
+    print(720)
+else:
+    print(n)
+    

@@ -1,0 +1,21 @@
+n=int(input())
+total_1=0
+arrive_1=0
+total_2=0
+arrive_2=0
+for i in range(0,n):
+    a,b,_=list(map(int,input().split()))
+    if(a==1):
+        total_1+=10
+        arrive_1+=b
+    elif(a==2):
+        total_2+=10
+        arrive_2+=b
+if(arrive_1/total_1>=0.5):
+    print('LIVE')
+else:
+    print('DEAD')
+if(arrive_2/total_2>=0.5):
+    print('LIVE')
+else:
+    print('DEAD')

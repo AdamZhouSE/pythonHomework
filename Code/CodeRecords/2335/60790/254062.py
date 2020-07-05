@@ -1,0 +1,10 @@
+x=int(input())
+y=int(input())
+ans=0
+while(y>x):
+    ans+=1
+    if(y%2==0):
+        y=y/2
+    else:
+        y=y+1
+print(int(ans+x-y))

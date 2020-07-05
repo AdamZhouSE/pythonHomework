@@ -1,0 +1,1 @@
+i=lambda:map(int,input().split());_,k=i();print(min(k//x for x in i()if k%x<1))

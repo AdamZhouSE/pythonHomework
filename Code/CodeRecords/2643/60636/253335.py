@@ -1,0 +1,5 @@
+customers=eval(input())
+grumpy=eval(input())
+x=int(input())
+print(customers)
+print(grumpy)

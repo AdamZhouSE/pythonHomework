@@ -1,0 +1,11 @@
+source_1=input().split("+")
+source_2=input().split("+")
+shi=[]
+xu=[]
+shi.append(int(source_1[0]))
+shi.append(int(source_2[0]))
+xu.append(int(source_1[1][:-1]))
+xu.append(int(source_2[1][:-1]))
+ans_shi=shi[0]*shi[1]-xu[0]*xu[1]
+ans_xu=shi[0]*xu[1]+shi[1]*xu[0]
+print(str(ans_shi)+"+"+str(ans_xu)+"i")

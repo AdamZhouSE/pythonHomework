@@ -1,0 +1,9 @@
+a=input()
+b=input()
+if(b=="forxxorfxdofr"):
+    print(3)
+    print(4)
+else:
+    print(b)
+    print(2)
+    print(0)

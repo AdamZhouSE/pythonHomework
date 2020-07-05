@@ -1,0 +1,4 @@
+l = input()
+
+print(l)
+

@@ -1,0 +1,11 @@
+n=int(input())
+list1=input().split()
+list1=list(map(int,list1))
+minIdex=list1.index(min(list1))
+maxIdex=list1.index(max(list1))
+result=[0]*4
+result[0]=minIdex-0
+result[1]=maxIdex-0
+result[2]=n-minIdex-1
+result[3]=n-maxIdex-1
+print(max(result))

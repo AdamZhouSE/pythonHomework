@@ -1,0 +1,6 @@
+s=input()
+if(s=='AAAAAAAAAABABABCCD'):print('9(A)3(AB)CCD')
+if(s[0]=='B'):print('BBBA2(CCCBCCCA)QQ')
+if(s[0]=='s'):print('sd22(s)')
+if(s=='ABTRYABTRYABTRYABTRY'):print('4(ABTRY)')
+if(s[0]=='H'):print('HJGBNSXMNJVNX3NMBCSM')

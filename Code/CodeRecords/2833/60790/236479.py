@@ -1,0 +1,10 @@
+n=int(input())
+list1=input().split()
+list1=list(map(int,list1))
+list2=input().split()
+list2=list(map(int,list2))
+list2.sort(reverse=True)
+if((list2[0]+list2[1])>=sum(list1)):
+    print("YES")
+else:
+    print("NO")

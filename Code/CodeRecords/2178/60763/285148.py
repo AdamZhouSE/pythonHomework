@@ -1,0 +1,19 @@
+def numOfSpell(s):
+    # print(s)
+    t = []
+    a = []
+    for i in range(len(s)):
+        for j in range(len(s)-i):
+            # print(s[j:j+i+1])
+            a = sorted(list(s[j:j+i+1]))
+            # print(a)
+            if not a in t:
+                t.append(a)
+    # print(t)
+    return len(t)
+
+n = int(input())
+s = ''.join((''+input()).split(' '))
+# print(s)
+for i in range(n):
+    print(numOfSpell(s[0:i+1]))

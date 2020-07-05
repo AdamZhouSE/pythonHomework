@@ -1,0 +1,6 @@
+numsl1=input()
+nusml2=input()
+numsl1=eval(numsl1)
+nusml2=eval(nusml2)
+numsl1=sorted(numsl1, key=(nusml2+sorted(set(numsl1) - set(nusml2))).index)
+print(numsl1,end="\n")

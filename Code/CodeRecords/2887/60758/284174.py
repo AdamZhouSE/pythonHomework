@@ -1,0 +1,23 @@
+n=int(input())
+get_one=0
+miss_one=0
+get_two=0
+miss_two=0
+for i in range(n):
+    num=list(map(int,input().split()))
+    if(num[0]==1):
+        get_one+=num[1]
+        miss_one+=num[2]
+    else:
+        get_two+=num[1]
+        miss_two+=num[2]
+total_one=get_one/(get_one+miss_one)
+total_two=get_two/(get_two+miss_two)
+if(total_one>=0.5):
+    print("LIVE")
+else:
+    print("DEAD")
+if(total_two>=0.5):
+    print("LIVE")
+else:
+    print("DEAD")   

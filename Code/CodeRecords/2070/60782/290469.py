@@ -1,0 +1,1 @@
+print(float(input()) ** int(input()))

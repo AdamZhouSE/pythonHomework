@@ -1,0 +1,23 @@
+rb=input()
+groups=list(map(int,input().split()))
+one=groups.count(1)
+two=groups.count(2)
+thr=groups.count(3)
+fou=groups.count(4)
+taxi=0
+taxi+=fou
+taxi+=thr
+one-=thr
+if(one<0):
+    one=0
+taxi+=two//2
+two%=2
+if(two==1):
+    taxi+=1
+    one-=2
+if(one<0):
+    one=0
+taxi+=one//4
+if(one%4!=0):
+    taxi+=1
+print(taxi)

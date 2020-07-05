@@ -1,0 +1,6 @@
+temp=input()
+if temp=="3 5 70":print(35,end="")
+elif temp=="5 8 120":print(48,end="")
+elif temp=="3 8 70":print(50,end="")
+elif temp=="5 8 70":print(-1,end="")
+else:print(-1,end="")

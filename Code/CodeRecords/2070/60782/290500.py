@@ -1,0 +1,1 @@
+print(“%.5f" % float(input()) ** int(input()))

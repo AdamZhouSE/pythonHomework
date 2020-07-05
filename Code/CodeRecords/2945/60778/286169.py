@@ -1,0 +1,15 @@
+s=input()
+num_boys=s.count("b")+s.count("o")+s.count("y")-s.count("bo")-s.count("oy")
+girl=s.count("girl")
+gir=s.count("gir")-girl
+irl=s.count("irl")-girl
+gi=s.count("gi")-gir-girl
+ir=s.count("ir")-gir-irl-girl
+rl=s.count("rl")-irl-girl
+g=s.count("g")-gi-gir-girl
+i=s.count("i")-gi-ir-gir-irl-girl
+r=s.count("r")-ir-rl-gir-irl-girl
+l=s.count("l")-rl-irl-girl
+num_girls=girl+gir+irl+gi+ir+rl+g+i+r+l
+print(num_boys)
+print(num_girls,end="")

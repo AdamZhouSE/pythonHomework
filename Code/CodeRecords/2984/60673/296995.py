@@ -1,0 +1,10 @@
+str1=input()
+str2=input()
+if(str1==str2):
+    print(2)
+elif(str1.upper()==str2.upper()):
+    print(3)
+elif(len(str1)==len(str2)):
+    print(4)
+else:
+    print(1)

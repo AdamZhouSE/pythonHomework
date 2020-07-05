@@ -1,0 +1,5 @@
+str0 = input()
+i = int(input())
+list0 = list(map(int,str0[1:len(str0)-1].split(",")))
+list0.sort()
+print(list0[len(list0)-i])

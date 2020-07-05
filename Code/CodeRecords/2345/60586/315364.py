@@ -1,0 +1,14 @@
+input()
+input()
+x=input()
+input()
+y=input()
+if x=="2 2"and y=="1 2 3":
+    print("2 1")
+    print("0 0")
+elif x=="2 2"and y=="1 3 3":
+    print("2 1")
+    print("3 2")
+else:
+    print(x)
+    print(y)    

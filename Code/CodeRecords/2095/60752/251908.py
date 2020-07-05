@@ -1,0 +1,5 @@
+s1=input()
+s2=input()
+s1=int(s1,2)
+s2=int(s2,2)
+print(bin(s1+s2)[2:])

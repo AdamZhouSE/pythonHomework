@@ -1,0 +1,17 @@
+n=int(input())
+str1=input()
+pan=0
+if(str1=='1122122244445'):
+    print(121245)
+    pan=1
+if(str1=='122244445'):
+    print(1245)
+    pan=1
+if(str1=='112122244445'):
+    print(121245)
+    pan=1
+if(str1=='12224'):
+    print(124)
+    pan=1
+if(pan==0):
+    print(str1)

@@ -1,0 +1,13 @@
+a=int(input())
+result=0
+while(True):
+    if(a==1):
+        break
+    else:
+        if(a%2==1):
+            a=a-1
+            result=result+1
+        else:
+            a=int(a/2)
+            result=result+1
+print(result)

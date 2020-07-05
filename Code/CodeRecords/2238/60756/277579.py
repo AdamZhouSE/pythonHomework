@@ -1,0 +1,1 @@
+print(sum(list(map(lambda x:x+1,list(set(list(map(int,input().split(",")))))))))

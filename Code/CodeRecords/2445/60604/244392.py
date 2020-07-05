@@ -1,0 +1,15 @@
+x=input().split(',')
+s=x[0].lstrip('s = "').rstrip('"')
+t=x[1].lstrip('t = "').rstrip('"')
+#print(s)
+#t=list(input())
+#print(x)
+#print(t)
+s=list(s)
+t=list(t)
+s.sort()
+t.sort()
+if s==t:
+    print("true")
+else:
+    print("false")

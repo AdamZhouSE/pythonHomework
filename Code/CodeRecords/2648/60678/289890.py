@@ -1,0 +1,2 @@
+stringM = input()
+stringS = input()

@@ -1,0 +1,13 @@
+lists = list()
+input()
+temp = input()
+lens = len(temp)
+templist = list(eval(temp[0:lens-1]))
+lists.append(templist)
+for i in range(len(templist)-2):
+    temp = input()
+    templist = list(eval(temp[0:lens-1]))
+    lists.append(templist)
+templist = list(eval(input()))
+lists.append(templist)
+print(lists)

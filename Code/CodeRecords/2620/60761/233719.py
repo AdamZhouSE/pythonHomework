@@ -1,0 +1,9 @@
+t=int(input(""))
+while(t>0):
+    n=int(input(""))
+    sum=0
+    while(n>0):
+        sum=sum+n**5
+        n=n-1
+    print(sum)
+    t=t-1

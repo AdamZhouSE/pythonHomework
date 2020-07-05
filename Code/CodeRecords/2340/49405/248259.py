@@ -1,0 +1,16 @@
+T = int(input())
+for t in range(T):
+    n = int(input())
+    a = list(map(int, input().split()))
+    lm = [0 for i in range(n)]
+    rm = [0 for i in range(n)]
+    lm[0] = a[0]
+    rm[n - 1] = a[n - 1]
+    for i in range(1, n):
+        lm[i] = max(lm[i - 1], a[i])
+    for i in range(n - 2, -1, -1):
+        rm[i] = max(rm[i + 1], a[i])
+    ans = 0
+    for i in range(n):
+        ans += min(lm[i], rm[i]) - a[i]
+    print(ans)

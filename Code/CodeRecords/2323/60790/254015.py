@@ -1,0 +1,10 @@
+list1=input().split(",")
+list1=list(map(int,list1))
+k=int(input())
+min0=min(list1)
+max0=max(list1)
+result=max0-min0-2*k
+if(result<0):
+    print(0)
+else:
+    print(result)

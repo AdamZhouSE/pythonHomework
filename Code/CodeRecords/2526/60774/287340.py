@@ -1,0 +1,5 @@
+lst1 = list(filter(lambda node:node != 'null' and node != '',input()[1:-1].split(',')))
+lst2 = list(filter(lambda node:node != 'null' and node != '',input()[1:-1].split(',')))
+newLst = list(map(int,lst1 + lst2))
+newLst.sort()
+print(newLst)

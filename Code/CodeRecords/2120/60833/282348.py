@@ -1,0 +1,11 @@
+x=int(input())
+res=1
+if(x==2):
+    print(1)
+elif(x==3):
+    print(2)
+else:
+    while(x>4):
+        res*=3
+        x-=3
+    print(res*x)

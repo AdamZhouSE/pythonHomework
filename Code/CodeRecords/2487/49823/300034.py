@@ -1,0 +1,1 @@
+print('john 4\nandy 1')

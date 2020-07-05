@@ -1,0 +1,32 @@
+a=eval(input())
+cm=0
+cn=0
+m=0
+n=0
+for i in a:
+    if(i==m):
+        cm+=1
+    elif(i==n):
+        cn+=1
+    elif(cm==0):
+        m=i
+        cm=1
+    elif(cn==0):
+        n=i
+        cn=1
+    else:
+        cm-=1
+        cn-=1
+cm=0
+cn=0
+for i in a:
+    if(i==m):
+        cm+=1
+    elif(i==n):
+        cn+=1
+res=[]
+if(cm>len(a)//3):
+    res.append(cm)
+if(cn>len(a)//3):
+    res.append(cn)
+print(res)

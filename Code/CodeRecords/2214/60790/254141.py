@@ -1,0 +1,9 @@
+a=input().split("+")
+a1=int(a[0])
+a2=int(a[1][0:-1])
+b=input().split("+")
+b1=int(b[0])
+b2=int(b[1][0:-1])
+first=a1*b1-a2*b2
+last=a1*b2+a2*b1
+print(str(first)+"+"+str(last)+"i")

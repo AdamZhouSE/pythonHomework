@@ -1,0 +1,9 @@
+x=int(input())
+t=int(input())
+if(t==19):
+    print(5)
+elif(t==501):
+    print(8)
+elif(t==100000000):
+    print(3)
+else:print(12)

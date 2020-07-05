@@ -1,0 +1,12 @@
+n=int(input())
+i=1
+res='0'
+while(n>0):
+    temp=str(i)
+    if(n>len(temp)):
+        n-=len(temp)
+        i+=1
+    else:
+        res=temp[n-1]
+        n=0
+print(res)

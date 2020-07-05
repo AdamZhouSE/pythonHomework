@@ -1,0 +1,13 @@
+d=input().split()
+string1=d[0]
+string2=d[1]
+i=0
+while(i<len(string1)):
+    a=(string1[i])
+    b=(string2[i])
+    if(a!=b):
+        print(ord(a)-ord(b))
+        break
+    i+=1
+else:
+    print(0)

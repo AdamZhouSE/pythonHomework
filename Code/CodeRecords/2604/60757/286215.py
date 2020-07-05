@@ -1,0 +1,9 @@
+li=eval(input())
+cha=input()
+li.append(cha)
+li=list(tuple(set(li)))
+li=sorted(li)
+if(li.index(cha)==len(li)-1):
+    print(li[0])
+else:
+    print(li[li.index(cha)+1])

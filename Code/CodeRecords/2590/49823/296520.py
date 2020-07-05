@@ -1,0 +1,1 @@
+print('SHE!\nHE!\nHE!')

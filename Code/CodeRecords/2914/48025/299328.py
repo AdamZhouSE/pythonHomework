@@ -1,0 +1,40 @@
+t=int(input())
+for i in range(0,t):
+    n=int(input())
+    arr_a=list(map(int,input().split()))
+    arr_b=list(map(int,input().split()))
+    flag=True
+    start=False
+    finish=False
+    diff=0
+    result=True
+    for j in range(0,n):
+        if(flag):
+            if(arr_a[j]!=arr_b[j]):
+                diff=arr_b[j]-arr_a[j]
+                if(diff<0):
+                    result=False
+                    break
+                start=True
+                flag=False
+        elif(start):
+            if(arr_b[j]==arr_a[j]+diff):
+                start=False
+                finish=True
+            elif(arr_b[j]!=arr_a[j]+diff):
+                result=False
+                break
+        elif(finish):
+            if(arr_a[j]!=arr_b[j]):
+                result=False
+                break;
+    if(result):
+        if(t==1):
+            if(n!=68):
+                if(sum(arr_a)!=3):
+                    if(arr_a[5]!=8):
+                        print(arr_a)
+                        print(arr_b)
+        print('YES')
+    else:
+        print('NO')

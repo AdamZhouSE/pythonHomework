@@ -1,0 +1,5 @@
+n = int(input())
+arr = input().split(' ')
+arr = sorted(arr)
+arr.reverse()
+print(''.join(arr),end='')

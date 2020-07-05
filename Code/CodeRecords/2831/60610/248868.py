@@ -1,0 +1,13 @@
+num=input()
+string=input();
+point=input();
+list_p=list(map(int,point.split()));
+start=min(list_p);
+end=max(list_p);
+l=list(map(int,string.split()));
+result=sum(l);
+count=sum(l[start-1:end-1]);
+if(count>result-count):
+    print(result-count);
+else:
+    print(count);

@@ -1,0 +1,5 @@
+a = "".join(input().split("["))
+a = "".join(a.split("]"))
+a = list(map(int,a.split(",")))
+a.sort()
+print(a)

@@ -1,0 +1,6 @@
+s=input()
+q=input()
+z=input()
+b=input()
+print(s)
+print(q+"\n"+z+"\n"+b)

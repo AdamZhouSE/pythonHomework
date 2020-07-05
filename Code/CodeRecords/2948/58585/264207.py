@@ -1,0 +1,29 @@
+name=input()
+ST=int(input())
+good=65
+special=''
+temp=0
+result=''
+for i in range(len(name)):
+    special+=str(ord(name[i])-65+ST)
+result=special
+while(len(result)>3):
+    result=''
+    for i in range(len(special)-1):
+        temp=ord(special[i])+ord(special[i+1])-96
+        temp=temp%10
+        result+=str(temp)
+    special=result
+if(result=='100'):
+    print(100,end='')
+else:
+    temp=ord(result[0])+ord(result[1])-96
+    temp=temp%10
+    re1=str(temp)
+    temp=ord(result[1])+ord(result[2])-96
+    temp=temp%10
+    re2=str(temp)
+    if(re1=='0'):
+        print(re2,end='')
+    else:
+        print(re1+re2,end='')

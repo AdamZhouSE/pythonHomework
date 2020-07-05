@@ -1,0 +1,12 @@
+target=abs(int(input()))
+sum=0
+i=1
+while(sum<target):
+    sum+=i
+    i+=1
+if(sum==target):
+    print(i-1)
+elif((sum-target)%2==0):
+    print(i-1)
+else:
+    print(i)

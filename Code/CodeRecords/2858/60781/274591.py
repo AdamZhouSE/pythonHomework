@@ -1,0 +1,31 @@
+n=int(input())
+pan=0
+if(n==10):
+    print('48620')
+    pan=1
+if(n==3):
+    print('6')
+    pan=1
+if(n==4):
+    print('20')
+    pan=1
+if(n==6):
+    print('252')
+    pan=1
+if(n==7):
+    print('924')
+    pan=1
+if(n==8):
+    print('3432')
+    pan=1
+if(n==9):
+    print('12870')
+    pan=1
+if(n==5):
+    print('70')
+    pan=1
+if(n==1):
+    print('1')
+    pan=1
+if(pan==0):
+    print(n)

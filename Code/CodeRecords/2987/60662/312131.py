@@ -1,0 +1,5 @@
+s = str(input())
+m = list(s)
+m.reverse()
+sr = ''.join(m)
+print(s+sr)

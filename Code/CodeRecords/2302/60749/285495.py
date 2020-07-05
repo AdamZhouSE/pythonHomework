@@ -1,0 +1,4 @@
+
+
+#include <iostream> using namespace std; 
+int main() {    int n = 0;    int root = 0;    cin >> n >> root;    int father[n + 1];    int f, l, r;    for (int i = 0; i < n; i++) {        cin >> f >> l >> r;        if (l != 0) {            father[l] = f;        }        if (r != 0) {            father[r] = f;        }    }     int ln = 0, rn = 0;    cin >> ln >> rn;     int ld = 0, rd = 0;    l = ln, r = rn;    while (l != root) {        ld++;        l = father[l];    }    while (r != root) {        rd++;        r = father[r];    }    l = ln;    r = rn;    if (ld > rd) {        int bd = ld - rd;        for (int i = 0; i < bd; i++) {            l = father[l];        }    } else {        int bd = rd - ld;        for (int i = 0; i < bd; i++) {            r = father[r];        }    }    while (l != r) {        l = father[l];        r = father[r];    }    cout << l << endl; }

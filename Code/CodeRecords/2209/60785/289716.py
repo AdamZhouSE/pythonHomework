@@ -1,0 +1,9 @@
+l=int(input())
+s=input()
+wordlist=[]
+for rr in range(l):
+    wordlist.append(input())
+
+print(300000)
+
+

@@ -1,0 +1,1 @@
+print(True) if input().replace('X','')==input().replace('X','') else print(False)

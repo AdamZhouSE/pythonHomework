@@ -1,0 +1,5 @@
+root1 = eval(input())
+root2 = eval(input())
+root1.extend(root2)
+root1.sort()
+print(root1)

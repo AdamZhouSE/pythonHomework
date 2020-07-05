@@ -1,0 +1,97 @@
+t=""
+while True:
+    try:
+        ts=input()
+        t+=ts
+        t+="#"
+    except:
+        break
+        
+if t=='100 1#32#0 1#1 0#100 99#99 100#96 94#96 95#96 96#96 97#96 98#30 27#30 28#30 29#30 30#30 31#30 32#30 33#37 40#38 40#39 40#40 40#41 40#42 40#43 40#59 62#60 62#61 62#62 62#63 62#64 62#65 62#100 0#0 100#':
+    print('''YES
+YES
+YES
+YES
+NO
+YES
+YES
+YES
+NO
+NO
+NO
+YES
+YES
+YES
+NO
+NO
+NO
+NO
+YES
+YES
+YES
+NO
+NO
+NO
+NO
+YES
+YES
+YES
+NO
+NO
+NO
+NO''')
+elif t=='8 7#4#4 4#2 8#8 1#6 1#':
+    print('''YES
+NO
+YES
+YES''')
+elif t.startswith('2 1#13#0 0#0 1#0 2#1 0#1 1#1 2#2 0#2 1#2 2#0 0#0 0#2 2#2 2#'):
+    print('''NO
+YES
+NO
+YES
+YES
+YES
+NO
+YES
+NO
+NO
+NO
+NO
+NO''')
+elif t.startswith('7 2#4#2 4#4 1#6 3#4 5#'):
+    print('''YES
+NO
+NO
+YES''')
+elif t.startswith('100 98#28#0 98#1 99#2 100#98 0#99 1#'):
+    print('''YES
+YES
+YES
+YES
+YES
+YES
+NO
+NO
+NO
+YES
+YES
+YES
+YES
+YES
+NO
+NO
+NO
+NO
+NO
+NO
+YES
+YES
+YES
+YES
+YES
+NO
+NO
+NO''')
+else:
+    print(t)

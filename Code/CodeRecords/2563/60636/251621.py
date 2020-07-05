@@ -1,0 +1,14 @@
+n=int(input()[1:-1])
+print(n)
+i=2
+while(True):
+    a=i
+    s=0
+    while(a<n):
+        s=s+1
+        a=(pow(a,s)-1)/(a-1)
+    if(a==n):
+        print(i)
+        break
+    else:
+        i=i+1

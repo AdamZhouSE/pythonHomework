@@ -1,0 +1,15 @@
+house=eval(input())
+loca=eval(input())
+dis=0
+for i in range(0,len(loca)-1):
+    if loca[i+1]-loca[i]>dis:
+        dis=loca[i+1]-loca[i]
+if dis%2==0:
+    dis=dis//2
+else:
+    dis=(dis-1)//2
+if abs(house[0]-loca[0])>dis :
+    dis=abs(house[0]-loca[0])
+elif house[len(house)-1]-loca[len(loca)-1]>dis:
+    dis=house[len(house)-1]-loca[len(loca)-1]
+print(dis)

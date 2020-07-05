@@ -1,0 +1,5 @@
+n_p=input().split(" ")
+n=int(n_p[0])
+p=int(n_p[1])
+sources=input().split(" ")
+print(sources)

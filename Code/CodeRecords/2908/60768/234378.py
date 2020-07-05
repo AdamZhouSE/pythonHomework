@@ -1,0 +1,10 @@
+num=int(input())
+re=[]
+for i in range(0,num):
+    temp=26*[0]
+    word=list(filter(str.isalpha,input()))
+    for j in word:
+        temp[ord(j)-65]=temp[ord(j)-65]+1
+    if not temp in re:
+        re.append(temp)
+print(len(re),end="")

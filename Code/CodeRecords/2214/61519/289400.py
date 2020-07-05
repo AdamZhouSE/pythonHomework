@@ -1,0 +1,10 @@
+a=list(input())
+b=list(input())
+a1=int(a[0])
+a2=int(a[-3]+a[-2])
+b1=int(b[0])
+b2=int(b[-3]+b[-2])
+number=a1*b1-(a2*b2)
+number2=a1*b2+b1*a2
+res=str(number)+"+"+str(number2)+"i"
+print(res)

@@ -1,0 +1,1 @@
+print(sorted([int(i) for i in input().strip('[|]').split(',')], reverse=True)[int(input())-1])

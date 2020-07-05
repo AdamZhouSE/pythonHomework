@@ -1,0 +1,15 @@
+n=int(input())
+s=""
+if(n==0):
+    print("0")
+count=0
+while(n!=0):
+    tmp=n%2
+    s+=str(tmp)
+    if(count%2==1):
+        n+=tmp;
+    n=int(n/2)
+    count+=1
+s=list(s)
+s=s[::-1]
+print("".join(s))

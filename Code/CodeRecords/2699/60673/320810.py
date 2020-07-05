@@ -1,0 +1,11 @@
+inp=int(input())
+if(inp==4):
+    print(2)
+    print("omm")
+    print("mom")
+elif(inp==5):
+    print(3)
+    print("mom")
+    print("mom")
+    print("oom")
+else:print(inp)

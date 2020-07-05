@@ -1,0 +1,11 @@
+str1=input()
+if(str1[0]=='-'):
+    str1=str1[1:]
+    str1=str1[::-1]
+    print("-"+str1)
+elif(str1[-1]=="0"):
+    str1=str1[:-1]
+    str1=str1[::-1]
+    print(str1)
+else:
+    print(str1[::-1])

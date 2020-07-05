@@ -1,0 +1,29 @@
+s=input()
+st=s.find('[')
+en=s.find(']')
+num=eval(s[st:en+1])
+a=s[en+2:].find('=')
+b=s[en+2:].find(',')
+s=s[en+2:]
+k=int(s[a+2:b])
+c=s[b+1:].find('=')
+s=s[b+1:]
+s=int(s[c+2:])
+i=0
+j=1
+leng=len(num)
+flag=False
+while i<leng-1:
+    j=i+1
+    while j<leng and j-i<=k:
+        if(abs(num[j]-num[i])<=s):
+            flag=True
+            break
+        j+=1
+    if(flag):
+        break
+    i+=1
+if(flag):
+    print("true")
+else:
+    print("false")

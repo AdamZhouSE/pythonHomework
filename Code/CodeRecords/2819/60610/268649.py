@@ -1,0 +1,25 @@
+num=int(input())
+string=input();
+l=list(map(int,string.split()));
+sum=0;
+a=0;
+if(l.count(1)<=l.count(3)):
+    sum=sum+l.count(3);
+else:
+    sum=sum+l.count(3)
+    a=l.count(1)-l.count(3);
+if(l.count(2)%2==0):
+    sum=sum+int(l.count(2)/2)+int(a/4);
+    if(a%4!=0):
+        sum=sum+1;
+else:
+    sum=sum+int(l.count(2)/2)+int(a/4);
+    if(a%4!=0):
+        if(a%4==3):
+            sum+=2;
+        else:
+            sum+=1;
+    else:
+        sum+=1;
+print(sum+l.count(4));
+

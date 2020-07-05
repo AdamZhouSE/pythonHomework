@@ -1,0 +1,14 @@
+Total=int(input());
+i=0;
+list=[];
+while(i<Total):
+    list.append(sorted(input()));
+    i+=1;
+list=sorted(list);
+count=1;
+i=0;
+while(i<len(list)-1):
+    if(list[i]!=list[i+1]):
+        count+=1;
+    i+=1;
+print(count,end="");

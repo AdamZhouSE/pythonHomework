@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+s=str(a/b)
+list1=list(s.split("."))
+if(list1[1]=='0'):
+    print(list1[0])
+elif((list1[1].count(list1[1][0])==len(list1[1]))&(len(list1[1])>5)):
+    result=list1[0]+"."+"("+list1[1][0]+")"
+    print(result)
+else:
+    print(s)

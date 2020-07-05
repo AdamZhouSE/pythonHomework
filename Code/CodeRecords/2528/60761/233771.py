@@ -1,0 +1,5 @@
+A=input("")
+A=A.replace('[',"")
+A=A.replace(']',"")
+A=list(map(int,A.split(","))).sort()
+print(A)

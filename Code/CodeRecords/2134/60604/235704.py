@@ -1,0 +1,10 @@
+num=int(input())
+time=int(input())
+timeInAll=int(input())
+times=timeInAll/time+1
+res=times
+pig=1
+while(res<num):
+    res=res*times
+    pig+=1
+print(pig)

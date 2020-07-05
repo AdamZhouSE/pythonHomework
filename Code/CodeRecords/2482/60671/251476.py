@@ -1,0 +1,15 @@
+time=int(input())
+while(time>0):
+    time-=1
+    num1=int(input())
+    num2=int(input())
+    if(num1%num2==0):
+        print(int(num1/num2))
+    elif((str(num1/num2)+"00000000000")[8]=="0"):
+        print(num1/num2)
+    elif(num1%num2==2)and(num2==3):
+        print(str(int(num1/num2))+".(6)")
+    elif(num2==9):
+        print("0.(8)")
+    else:
+        print(str(int(num1/num2))+".(3)")

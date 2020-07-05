@@ -1,0 +1,19 @@
+n=int(input())
+a=list(map(int,input().split()))
+odd=[]
+even=[]
+for i in a:
+    if(i%2==0):
+        even.append(i)
+    else:
+        odd.append(i)
+if(abs(len(even)-len(odd))<=1):
+    print(0)
+else:
+    if(len(even)-len(odd)>1):
+       even.sort()
+       ans=sum(even[:len(even)-len(odd)-1]) 
+    else:
+        odd.sort()
+        ans=sum(odd[:len(odd)-len(even)-1])
+    print(ans)

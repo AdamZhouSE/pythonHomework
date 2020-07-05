@@ -1,0 +1,29 @@
+n = int(input())
+m = int(input())
+if(n==0):
+    print(1)
+if(n==1):
+    if(m==0):
+        print(1)
+    if(m==1):
+        print(2)
+    if(m>=2):
+        print(2)
+if(n==2):
+    if(m==0):
+        print(1)
+    if(m==1):
+        print(3)
+    if(m==2):
+        print(4)
+    if(m>2):
+        print(4)
+if(n>=3):
+    if(m==0):
+        print(1)
+    if(m==1):
+        print(4)
+    if(m==2):
+        print(7)
+    if(m>2):
+        print(8)

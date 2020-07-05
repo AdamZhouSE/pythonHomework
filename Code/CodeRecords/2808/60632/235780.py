@@ -1,0 +1,5 @@
+n = int(input())
+nums = list(map(int, input().split(' ')))
+front = min(nums.index(1), nums.index(n))
+rear = max(nums.index(1), nums.index(n))
+print(max(n - front - 1, rear))

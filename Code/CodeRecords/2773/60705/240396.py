@@ -1,0 +1,8 @@
+a = input()
+b = input()[2:-2].split(",")
+c = input()[2:-2].split(",")
+d = input()[2:-1].split(",")
+f = input()
+print(b)
+print(c)
+print(d)

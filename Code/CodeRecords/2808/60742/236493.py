@@ -1,0 +1,10 @@
+n = int(input())
+a = input().split()
+for i in range(n):
+    a[i] = int(a[i])
+index1 = a.index(1)
+index2 = a.index(n)
+small_index = min(index1,index2)
+big_index = max(index1,index2)
+res = max(n-1-small_index,big_index)
+print (res)

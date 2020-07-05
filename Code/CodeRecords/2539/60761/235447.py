@@ -1,0 +1,19 @@
+arr=input("")
+arr=list(map(int,arr[1:-1].split(",")))
+newarr=sorted(arr)
+i=0
+minlen=len(arr)
+while(i<len(arr)):
+    if(arr[i]!=newarr[i]):
+        minlen=minlen-i
+        break
+    i=i+1
+newarr.reverse()
+arr.reverse()
+i=0
+while(i<len(arr)):
+    if(arr[i]!=newarr[i]):
+        minlen=minlen-i        
+        break
+    i=1+1
+print(minlen)    

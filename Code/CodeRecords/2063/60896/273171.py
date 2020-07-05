@@ -1,0 +1,10 @@
+a=input()
+length=len(a)
+if(length%2==0):
+    if(a[0:int(length/2)]==a[int(length/2):length]):
+        print(True)
+    else:print(False)
+else:
+    if(a[0:int(length/2)+1]==a[int(length/2):length][::-1]):
+        print(True)
+    else:print(False)

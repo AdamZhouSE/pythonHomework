@@ -1,0 +1,11 @@
+s=input()
+str1=""
+if(s[0]=='-'):
+    str1="-"
+    s=s[1:]
+s=s[::-1]
+i=0
+while(s[i]=='0'):
+    i+=1
+s=s[i:]
+print(str1+s)

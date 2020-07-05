@@ -1,0 +1,13 @@
+candies=eval(input())
+num_people=eval(input())
+ans=[0]*num_people
+ptr=0
+cd_give=1
+while(candies>0):
+    if(candies>=cd_give):
+        ans[ptr]=ans[ptr]+cd_give
+    else:
+        ans[ptr]=ans[ptr]+candies
+    ptr+=1
+    cd_give+=1
+print(ans)

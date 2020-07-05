@@ -1,0 +1,14 @@
+a = int(input())
+b = input().split(' ')
+c = []
+
+for i in range(len(b)):
+    if (c.count(int(b[i]))==0):
+        c.append(int(b[i]))
+        
+if (c.count(0)==0):
+    d=len(c)
+else:
+    d=len(c)-1
+
+print(d)

@@ -1,0 +1,19 @@
+l1=input().split()
+n=int(l1[0])
+m=int(l1[1])
+nums=input().split()
+nums=list(map(int,nums))
+for time in range(0,m):
+    l=input().split()
+    l=list(map(int,l))
+    op=l[0]
+    left=l[1]-1
+    right=l[2]-1
+    if(op==0):
+        nums=nums[0:left]+sorted(nums[left:right+1])+nums[right+1:]
+    else:
+        temp=nums[left:right+1]
+        temp.sort(reverse=True)
+        nums=nums[0:left]+temp+nums[right+1:]
+q=int(input())
+print(nums[q-1])

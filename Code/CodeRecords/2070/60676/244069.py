@@ -1,0 +1,1 @@
+print('{0:.5f}'.format(pow(float(input()), int(input()))))

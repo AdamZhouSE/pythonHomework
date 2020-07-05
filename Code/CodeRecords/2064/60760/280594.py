@@ -1,0 +1,15 @@
+roma=input()
+a=roma.count("I")
+b=roma.count("V")*5
+c=roma.count("X")*10
+d=roma.count("L")*50
+e=roma.count("C")*100
+f=roma.count("D")*500
+g=roma.count("M")*100
+h=roma.count("IV")*(-2)
+i=roma.count("IX")*(-2)
+j=roma.count("XL")*(-20)
+k=roma.count("XC")*(-20)
+l=roma.count("CD")*(-200)
+m=roma.count("CM")*(-200)
+print(a+b+c+d+e+f+g+h+i+j+k+l+m)

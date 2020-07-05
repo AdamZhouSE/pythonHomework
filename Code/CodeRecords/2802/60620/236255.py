@@ -1,0 +1,6 @@
+n,m=map(int,input().split())
+number=input().split()
+a=list((int(i)-1)//m for i in number)
+a.reverse()
+result=n-a.index(max(a))
+print(result)

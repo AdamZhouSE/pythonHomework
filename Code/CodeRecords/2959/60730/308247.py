@@ -1,0 +1,13 @@
+s1 = input()
+s2 = input()
+cnt = 0
+if len(s1) > len(s2):
+    s1, s2 = s2, s1
+for i in range((len(s1))):
+    for k in range(1,len(s1)):
+        for j in range(len(s2)):
+
+            if s1[i:i + k] == s2[j:j + k] :
+                cnt += 1
+
+print(cnt)

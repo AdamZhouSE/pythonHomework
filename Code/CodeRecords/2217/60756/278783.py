@@ -1,0 +1,8 @@
+x1,y1=map(int,input().split(","))
+x2,y2=map(int,input().split(","))
+x3,y3=map(int,input().split(","))
+x4,y4=map(int,input().split(","))
+r1=pow((x1-x2),2)+pow((y1-y2),2)
+r2=pow((x1-x3),2)+pow((y1-y3),2)
+r3=pow((x1-x4),2)+pow((y1-y4),2)
+print(r1+r2==r3 or r1+r3==r2 or r2+r3==r1)

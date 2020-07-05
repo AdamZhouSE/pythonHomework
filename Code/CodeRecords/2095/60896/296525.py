@@ -1,0 +1,5 @@
+a=input()
+b=input()
+x=int(a,2)
+y=int(b,2)
+print(bin(x+y)[2:])

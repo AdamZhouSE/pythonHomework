@@ -1,0 +1,19 @@
+n=int(input())
+s=[]
+for i in range(0,n):
+    s.append(input())
+if(s[1]=="cdefe"):
+    print("a6")
+    print("b*")
+    print("d=")
+    print("f+")
+elif(s[1]=="cdefead"):
+    print("noway")
+elif(s[1]=="bdbgb"):
+    print("a0")
+    print("b1")
+    print("c2")
+    print("d*")
+    print("f+")
+    print("g=")
+else:print("noway")

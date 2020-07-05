@@ -1,0 +1,12 @@
+time=int(input())
+while(time>0):
+    string=input()
+    word=input()
+    count=0
+    flag1=False
+    flag2=False
+    lenStr=len(string)
+    lenWord=len(word)
+    count=string.count(word)
+    print(count)
+    time-=1

@@ -1,0 +1,10 @@
+source_1=input().split("+")
+source_2=input().split("-")
+shi=[]
+xu=[]
+shi.append(int(source_1[0]))
+shi.append(int(source_2[0]))
+xu.append(int(source_1[1][:-1]))
+xu.append(int(source_2[1][:-1]))
+print(shi)
+print(xu)

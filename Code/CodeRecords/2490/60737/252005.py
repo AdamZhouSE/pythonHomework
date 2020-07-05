@@ -1,0 +1,5 @@
+a = eval(input())
+b = eval(input())
+c = list(set(a).intersection(set(b)))
+c.sort()
+print(c)

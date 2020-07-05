@@ -1,0 +1,26 @@
+source=input().split(",")
+sources=[]
+for i in source:
+    sources.append(int(i))
+alex=0
+li=0
+while(len(sources)!=0):
+    if(sources[-1]>=sources[0]):
+        alex=alex+sources[-1]
+        sources.pop(-1)
+    else:
+        alex=alex+sources[0]
+        sources.pop(0)
+    if(len(sources)==0):
+        break
+    else:
+        if(sources[-1]>=sources[0]):
+            li=li+sources[-1]
+            sources.pop(-1)
+        else:
+            li=li+sources[0]
+            sources.pop(0)    
+if(alex>li):
+    print("True")
+else:
+    print("False")

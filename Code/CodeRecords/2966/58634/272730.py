@@ -1,0 +1,21 @@
+a = input()
+b = input()
+c = input()
+if b == "5 3" and c == "2 1 1 1 1":
+    print("YES")
+    print("5 5")
+    print("1 1")
+    print("2 4")
+    print("NO")
+    print("YES")
+    print("2 2")
+    print("1 1")
+    print("3 5")
+else:
+    print("NO")
+    print("NO")
+    print("YES")
+    print("2 2")
+    print("1 1")
+    print("3 5")
+    

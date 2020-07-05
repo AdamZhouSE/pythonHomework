@@ -1,0 +1,11 @@
+a=int(input())
+temp=a
+weishu=1
+while(temp-9*weishu*pow(10,weishu-1)>0):
+    temp=temp-9*weishu*pow(10,weishu-1)
+    weishu=weishu+1
+dijigeshu=int((temp-1)/weishu)
+qishi=1*pow(10,weishu-1)
+zhegeshu=dijigeshu+qishi
+wei=temp%weishu
+print(str(zhegeshu)[wei-1])

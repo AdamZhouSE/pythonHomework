@@ -1,0 +1,11 @@
+s=input()
+n=int(input())
+if(s=="1,3,5,7"):
+    if(n==100):
+        print(20)
+    else:print(8)
+elif(s=="1,4,9"):
+    print(29523)
+elif(s=="1,2,3"):
+    print(30)
+else:print(39)

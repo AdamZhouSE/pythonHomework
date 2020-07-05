@@ -1,0 +1,1 @@
+print("\n".join(sorted([str(x) for x in range(1,101)])))

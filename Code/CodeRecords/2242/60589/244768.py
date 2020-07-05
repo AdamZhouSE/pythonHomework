@@ -1,0 +1,6 @@
+rec1=input().split(',')
+rec1=list(map(int,rec1))
+rec2=input().split(',')
+rec2=list(map(int,rec2))
+ans=not (rec1[2]<=rec2[0] or rec1[0]>=rec2[2] or rec1[1]>=rec2[3] or rec1[3]<=rec2[1])
+print(ans)

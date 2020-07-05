@@ -1,0 +1,11 @@
+n=int(input())
+a=list(map(int,input().split()))
+b=[]
+b.extend(a)
+c=[]
+c.extend(a)
+b.remove(max(a))
+c.remove(min(a))
+x=max(b)-min(b)
+y=max(c)-min(c)
+print(min(x,y))

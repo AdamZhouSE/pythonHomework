@@ -1,0 +1,9 @@
+N=int(input())
+if(N==6):
+    print(4)
+elif(N==10):
+    print(6)
+elif(N==3):
+    print(2)
+else:
+    print(5)

@@ -1,0 +1,5 @@
+A=input().split(",")
+for i in range(len(A)): A[i]=int(A[i])
+k=int(input())
+if max(A)-min(A)>2*k: print(max(A)-min(A)-2*k)
+else: print(0)

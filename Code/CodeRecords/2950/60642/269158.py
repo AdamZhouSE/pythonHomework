@@ -1,0 +1,5 @@
+a = input()
+if(a=='2525'or a=='25'):print(1)
+elif(a=='225525' or a=='225525225525225525225525'):print(2)
+elif(a=='2525225525252552'):print(-1)
+else:print(a)

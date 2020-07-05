@@ -1,0 +1,19 @@
+a=input()
+a=a[2:len(a)-2]
+b=a.split('],[')
+print(b)
+list1=[]
+list2=[]
+for i in range(len(b)):
+    list1.append(int(b[i]))
+from collections import defaultdict
+dest = defaultdict(list)
+for k, v in sorted(tickets)[::-1]:
+    dest[k] += v,
+res = list()
+stack = ['JFK']
+while stack:
+    while dest[stack[-1]]:
+        stack.append(dest[stack[-1]].pop())
+    res.append(stack.pop())
+print(res[::-1])

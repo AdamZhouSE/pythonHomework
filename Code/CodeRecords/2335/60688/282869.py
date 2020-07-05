@@ -1,0 +1,11 @@
+X=int(input())
+Y=int(input())
+results=0;
+while(Y>X):
+    results+=1;
+    if(Y%2==1):
+        Y+=1;
+    else:
+        Y//=2;
+results=results+X-Y;
+print(results)

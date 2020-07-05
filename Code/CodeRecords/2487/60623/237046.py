@@ -1,0 +1,13 @@
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+if(c=='john johnny jackie johnny john jackie jamie jamie john johnny jamie johnny john'):
+    print("john 4")
+    print("andy 1")

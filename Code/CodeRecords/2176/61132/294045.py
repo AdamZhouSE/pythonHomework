@@ -1,0 +1,5 @@
+s=list(input().split()[0])
+print(s)
+l=sorted([s[i:] for i in range(len(s))])
+print(l)
+print(' '.join([str(1+len(s)-len(i)) for i in l]))

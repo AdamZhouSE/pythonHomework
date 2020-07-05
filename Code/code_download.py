@@ -1,10 +1,14 @@
+"""
+下载代码
+解压格式为 /Code/CodeRecords/case_id/user_id/xxx.py
+"""
+
 import json
 import urllib.request
 import urllib.parse
 import os
 import zipfile as z
 import requests
-
 
 def callbackfunc(blocknum, blocksize, totalsize):
     percent = 100 * blocknum * blocksize / totalsize
@@ -46,6 +50,7 @@ def DL(data: dict, path):
                 for up in record["upload_records"]:
                     upload_id = str(up["upload_id"])
                     code_url = up["code_url"]
+                    print("下载链接: ", code_url)
                     try:
                         download(case_id, user_id, upload_id, code_url, path)
                     except:
@@ -53,9 +58,9 @@ def DL(data: dict, path):
                 # user_count += 1
                 # print(user_id + "------" + str(user_count))
             case_count += 1
-            print(case_id + "-------------------------" + str(case_count))
+            # print(case_id + "-------------------------" + str(case_count))
             haveSorted.append(case_id)
-            print(sorted(haveSorted))
+            # print(sorted(haveSorted))
 
 
 def download(case_id, user_id, upload_id, url, path):
@@ -65,12 +70,12 @@ def download(case_id, user_id, upload_id, url, path):
     # 创建文件夹
     if case_id not in os.listdir(path):
         os.mkdir(case_id)
-    os.chdir(path + "\\" + case_id)
+    os.chdir(path + "/" + case_id)
     path = os.getcwd()
 
     if user_id not in os.listdir(path):
         os.mkdir(user_id)
-    os.chdir(path + "\\" + user_id)
+    os.chdir(path + "/" + user_id)
     path = os.getcwd()
 
     # 下载
@@ -87,7 +92,7 @@ def download(case_id, user_id, upload_id, url, path):
 
 
 if __name__ == '__main__':
-    filename = 'data/Database of Mooctest.json'
+    filename = '../Data/Database of Mooctest.json'
     haveSorted = []
     delete(haveSorted, filename)
 
@@ -95,5 +100,5 @@ if __name__ == '__main__':
         res = f.read()
         data = json.loads(res)
         print(len(data.keys()))
-        os.chdir(os.getcwd() + "\\CodeRecords")
+        os.chdir(os.getcwd() + "/CodeRecords")
         DL(data, os.getcwd())

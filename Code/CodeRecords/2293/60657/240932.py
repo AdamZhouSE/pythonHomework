@@ -1,0 +1,15 @@
+a=input()
+num1=input()
+arr1=input().split(' ')
+arr1=[int(x) for x in arr1]
+k1=input()
+k1=int(k1)
+num2=input()
+arr2=input().split(' ')
+arr2=[int(x) for x in arr2]
+k2=input()
+k2=int(k2)
+arr1.sort()
+arr2.sort()
+print(arr1[k1-1])
+print(arr2[k2-1])

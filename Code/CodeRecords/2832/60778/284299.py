@@ -1,0 +1,13 @@
+rb=input()
+book=list(map(int,input().split()))
+page=1
+day=0
+target=0
+while(page<=len(book)):
+    target=max(target,book[page-1])
+    while(target>page):
+        page+=1
+        target=max(target,book[page-1])
+    day+=1
+    page+=1
+print(day)

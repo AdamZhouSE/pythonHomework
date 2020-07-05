@@ -1,0 +1,19 @@
+questNum = int(input())
+
+for quest in range(questNum):
+    s = input()
+    stack = []
+
+    reverse = 0
+    for i in range(len(s)):
+        if s[i] == '{':
+            stack.append('{')
+        elif s[i] == '}':
+            if len(stack) == 0:
+                reverse += 1
+                stack.append('{')
+
+    if len(stack) != 0:
+        reverse += len(stack) // 2
+
+    print(reverse)

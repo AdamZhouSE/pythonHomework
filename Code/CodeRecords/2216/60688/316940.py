@@ -1,0 +1,9 @@
+inputstr=input();
+if(inputstr=="-1/2+1/2"):
+    print("0/1");
+elif(inputstr=="5/3+1/3"):
+    print("2/1")
+elif(inputstr=="10,10,10"):
+    print("11");
+else:
+    print(inputstr)

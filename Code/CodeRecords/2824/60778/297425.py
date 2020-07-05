@@ -1,0 +1,20 @@
+str1=input().split()
+t=int(str1[1])
+c=int(str1[2])
+n=list(map(int,input().split()))
+start=False
+count=0
+res=0
+for i in n:
+    if(i<=t):
+        if(start):
+            res+=1
+        else:
+            count+=1
+            if(count==c):
+                res+=1
+                start=True
+    else:
+        count=0
+        start=False
+print(res)

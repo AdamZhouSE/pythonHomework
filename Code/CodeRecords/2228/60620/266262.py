@@ -1,0 +1,9 @@
+tar=int(input())
+x=0
+while(tar>0):
+    x+=1
+    tar-=x   
+if(tar%2==0):
+    print(x)
+else:
+    print(x+1+x%2)

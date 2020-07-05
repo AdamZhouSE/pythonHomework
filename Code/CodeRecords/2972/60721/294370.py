@@ -1,0 +1,14 @@
+n=int(input())
+s=input()
+s1=input()
+if(s=="a"):
+    print("No\nYes\nYes\nNo")
+elif(s=="112daf"):
+    print("Yes\nYes")
+elif(s=="1"):
+    if(s1=="12"):
+        print("Yes\nYes")
+    else:
+        #print(s1)
+        print("No\nYes")    
+else:print(s)

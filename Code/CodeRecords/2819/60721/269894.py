@@ -1,0 +1,30 @@
+n=int(input())
+lis=list(map(int,input().split(' ')))
+a4=lis.count(4)
+a3=lis.count(3)
+a2=lis.count(2)
+a1=lis.count(1)
+count=a4
+if(a3>=a1):
+    if(a2%2==0):
+        count+=a3+int(a2/2)
+    else:    
+        count+=a3+int(a2/2)+1
+else:
+    a1=a1-a3
+    count=count+a3
+    if(a2%2==0):
+        count+=int(a2/2)
+        if(a1%4==0):
+            count=count+int(a1/4)
+        else:
+            count=count+int(a1/4)+1
+    else:
+        count+=int(a2/2)
+        a2=1
+        if((2*a2+a1)%4==0):
+            count=count+int((2*a2+a1)/4)
+        else:
+            count=count+int((2*a2+a1)/4)+1
+print(count)
+    

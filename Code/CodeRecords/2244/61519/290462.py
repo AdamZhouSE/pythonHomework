@@ -1,0 +1,20 @@
+n=int(input())-1
+res=0
+while(res==0):
+    n+=1
+    fa=0
+    num=0
+    for i in range(2,int(n/2)):
+        if(n%i==0):
+            fa=1
+            break
+    if(fa==0):
+        num=n
+    if(num!=0):
+        string1=str(num)
+        tem=list(string1)
+        tem.reverse()
+        string2="".join(tem)
+        if(string1==string2):
+            res=string1
+print(res)

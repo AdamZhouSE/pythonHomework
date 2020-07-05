@@ -1,0 +1,15 @@
+A, B, C, D, E, F, G, H = input().split(',')
+A = int(A)
+B = int(B)  
+C = int(C)
+D = int(D)
+E = int(E)
+F = int(F)
+G = int(G)
+H = int(H)
+if A >= G or C <= E or B >= H or D <= F:
+    print((C - A) * (D - B) + (H - F) * (G - E))
+else:
+    a = sorted([A, C, E, G])
+    b = sorted([B, D, F, H])
+    print((C - A) * (D - B) + (H - F) * (G - E) - (a[2] - a[1]) * (b[2] - b[1]))

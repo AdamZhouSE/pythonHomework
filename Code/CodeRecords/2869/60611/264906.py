@@ -1,0 +1,10 @@
+num=int(input())
+l=list(map(int,input().split()))
+l.reverse()
+s=list(set(l))
+s.sort(key=l.index)
+length=len(s)
+print(length)
+for i in range(length-1,0,-1):
+    print(s[i],end=" ")
+print(s[0])

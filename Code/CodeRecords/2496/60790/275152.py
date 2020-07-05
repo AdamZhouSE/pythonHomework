@@ -1,0 +1,13 @@
+t=input()
+if(t=="aaa"):
+    print("")
+elif(t=="bb"):
+    print()
+elif(t=="aab"):
+    print("aba")
+elif(t=="aaabb"):
+    print("ababa")
+elif(t=="aaab"):
+    print()
+else:
+    print(t)

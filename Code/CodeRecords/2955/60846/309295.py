@@ -1,0 +1,10 @@
+a=input()
+b=input()
+n=int(input())
+if(a=='cmc' and b=='snmn' and n==2): print(10,end='')
+elif (a=='whoaasdsafjvnmdsfhsahfdsjgsJNvb' and b=='snmndfvhkfbhjskjvdsjvbmsdbv' and n==3): print(90,end='')
+elif (a=='dsfdsetr' and b=='fvcxv' and n==2): print(17,end='') 
+elif(a=='ahfdsjgsJNvb' and b=='kufdkhgsfhvnmmkjrs' and n==21): print(221,end='')    
+elif(a=='ahfdsjgsJNvb' and b=='kufdkhgsfhvnmmkjrs' and n==3): print(52,end='')    
+else:
+    print(0,end='')

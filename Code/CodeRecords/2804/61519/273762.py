@@ -1,0 +1,5 @@
+word=input()
+list1=(word.split("+"))
+list1.sort()
+word1="+".join(list1)
+print(word1)

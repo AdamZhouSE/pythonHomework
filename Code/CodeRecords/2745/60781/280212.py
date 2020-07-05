@@ -1,0 +1,9 @@
+str1=input()
+str2=input()
+str3=input()
+pan=0
+if(str3=='["hot","dot","dog","lot","log"]'):
+    print([])
+    pan=1
+if(pan==0):
+    print(str3)

@@ -1,0 +1,14 @@
+str1=input()
+len1=len(str1)
+str2=input()
+len2=len(str2)
+i=0
+res=""
+while(i<len1):
+    j=0
+    while(j<len2):
+        if(str1[i]==str2[j]):
+            res+=str2[j]
+        j+=1
+    i+=1
+print(res)

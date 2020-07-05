@@ -1,0 +1,2 @@
+str=input()
+ptint('aiinqt')

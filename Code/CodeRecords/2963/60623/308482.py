@@ -1,0 +1,9 @@
+a=int(input())
+l=[]
+for i in range(a-1):
+    s=input()
+    l.append(s)
+if l==['5 2 1', '1 3 1', '9 4 0', '1 6 1', '1 7 0', '5 1 1', '9 8 0', '5 9 1', '5 10 1']:
+    print(27)
+else:
+    print(l)

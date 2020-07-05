@@ -1,0 +1,7 @@
+n=input()
+num=int(input())
+b=list(eval(n))
+b.sort()
+k=set(b)
+b=list(b)
+print(b[len(b)-num])

@@ -1,0 +1,5 @@
+n = int(input())
+A = input()
+a = A.count('2')
+b = A.count('1')
+print(min(a,b)+(b-min(a,b))//3)

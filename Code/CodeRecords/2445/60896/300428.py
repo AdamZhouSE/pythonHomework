@@ -1,0 +1,12 @@
+a=input()
+a=a.split('"')
+b=a[3]
+a=a[1]
+a=list(a)
+a.sort()
+b=list(b)
+b.sort()
+if(a==b):
+    print('true')
+else:
+    print('false')

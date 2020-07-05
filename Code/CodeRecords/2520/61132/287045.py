@@ -1,0 +1,5 @@
+r=int(input())
+c=int(input())
+r0=int(input())
+c0=int(input())
+print(sorted([[i,j] for i in range(r) for j in range(c)],key=lambda x:abs(x[0]-r0)+abs(x[1]-c0)))

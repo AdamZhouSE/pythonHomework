@@ -1,0 +1,6 @@
+list0 = list(map(str,input().split(",")))
+str0 = ' '.join(list0)
+target = int(input())
+result = str0.find(str(target))
+if result==-1:print(-1)
+else:print((result+1)//2)

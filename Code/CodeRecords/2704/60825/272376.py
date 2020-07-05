@@ -1,0 +1,7 @@
+s=input()
+s.replace('[', ' ')
+s.replace(']', ' ')
+s.replace(',', ' ')
+l=s.split()
+l= list(map(int, l))
+print(l)

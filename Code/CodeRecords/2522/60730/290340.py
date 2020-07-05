@@ -1,0 +1,5 @@
+arr1 = eval(input())
+arr2 = eval(input())
+arr2 = arr2 + sorted(list(set(arr1) - set(arr2)))
+arr1.sort(key=arr2.index)
+print(arr1)

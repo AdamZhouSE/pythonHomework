@@ -1,0 +1,5 @@
+rb=input()
+nums=input().split()
+nums.sort(reverse=True)
+res=int("".join(nums))
+print(res,end="")

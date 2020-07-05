@@ -1,0 +1,5 @@
+a = input().split("+")
+b = input().split("+")
+ptOne = int(a[0]) * int(b[0]) - int(a[1][: -1]) * int(b[1][: -1])
+ptTwo = int(a[0]) * int(b[1][: -1]) + int(b[0]) * int(a[1][: -1])
+print(str(ptOne) + "+" + str(ptTwo) + "i")

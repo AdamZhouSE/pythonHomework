@@ -1,0 +1,21 @@
+a=int(input())
+b=int(input())
+c=int(input())
+nums=[a,b,c]
+nums.sort()
+ans=[0]*2
+if(nums[1]-nums[0]==1 and nums[2]-nums[1]==1):
+    print(ans)
+else:
+    if(nums[1]-nums[0]==1):
+        ans[0]=1
+        ans[1]=nums[2]-nums[1]-1
+    elif(nums[2]-nums[1]==1):
+        ans[0]=1
+        ans[1]=nums[1]-nums[0]-1
+    else:
+        ans[0]=2
+        dd1=ans[1]-ans[0]-1
+        dd2=ans[2]-ans[1]-1
+        ans[1]=max(dd1,dd2)+min(dd1,dd2)+1
+    print(ans)

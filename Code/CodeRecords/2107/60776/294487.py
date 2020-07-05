@@ -1,0 +1,12 @@
+a=int(input())
+result="True"
+while(True):
+    if(a==1):
+        break
+    else:
+        if(a%2!=0):
+            result="False"
+            break
+        else:
+            a=int(a/2)
+print(result)

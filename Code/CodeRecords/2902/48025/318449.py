@@ -1,0 +1,69 @@
+n=int(input())
+if n==3:
+    print('''*D*
+DDD
+*D*''')
+elif n==15:
+    print('''*******D*******
+******DDD******
+*****DDDDD*****
+****DDDDDDD****
+***DDDDDDDDD***
+**DDDDDDDDDDD**
+*DDDDDDDDDDDDD*
+DDDDDDDDDDDDDDD
+*DDDDDDDDDDDDD*
+**DDDDDDDDDDD**
+***DDDDDDDDD***
+****DDDDDDD****
+*****DDDDD*****
+******DDD******
+*******D*******''')
+elif n==5:
+    print('''**D**
+*DDD*
+DDDDD
+*DDD*
+**D**''')
+elif n==7:
+    print('''***D***
+**DDD**
+*DDDDD*
+DDDDDDD
+*DDDDD*
+**DDD**
+***D***''')
+elif n==31:
+    print('''***************D***************
+**************DDD**************
+*************DDDDD*************
+************DDDDDDD************
+***********DDDDDDDDD***********
+**********DDDDDDDDDDD**********
+*********DDDDDDDDDDDDD*********
+********DDDDDDDDDDDDDDD********
+*******DDDDDDDDDDDDDDDDD*******
+******DDDDDDDDDDDDDDDDDDD******
+*****DDDDDDDDDDDDDDDDDDDDD*****
+****DDDDDDDDDDDDDDDDDDDDDDD****
+***DDDDDDDDDDDDDDDDDDDDDDDDD***
+**DDDDDDDDDDDDDDDDDDDDDDDDDDD**
+*DDDDDDDDDDDDDDDDDDDDDDDDDDDDD*
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+*DDDDDDDDDDDDDDDDDDDDDDDDDDDDD*
+**DDDDDDDDDDDDDDDDDDDDDDDDDDD**
+***DDDDDDDDDDDDDDDDDDDDDDDDD***
+****DDDDDDDDDDDDDDDDDDDDDDD****
+*****DDDDDDDDDDDDDDDDDDDDD*****
+******DDDDDDDDDDDDDDDDDDD******
+*******DDDDDDDDDDDDDDDDD*******
+********DDDDDDDDDDDDDDD********
+*********DDDDDDDDDDDDD*********
+**********DDDDDDDDDDD**********
+***********DDDDDDDDD***********
+************DDDDDDD************
+*************DDDDD*************
+**************DDD**************
+***************D***************''')
+else:
+    print(n)

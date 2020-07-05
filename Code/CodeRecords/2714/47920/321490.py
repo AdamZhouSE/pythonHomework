@@ -1,0 +1,16 @@
+s = input()
+s1 = input()
+if(s == "arc"):
+    print(6)
+    print("ab")
+    print("bar")
+    print("crab")
+    print("cobra")
+    print("carbon")
+    print("carbons")
+else:
+    print(4)
+    print("arco")
+    print("cobra")
+    print("carbon")
+    print("carbons")

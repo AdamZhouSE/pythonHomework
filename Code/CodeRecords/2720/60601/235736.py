@@ -1,0 +1,29 @@
+def solve(n,con):
+    if len(con) < n - 1:
+        return -1
+
+    parent, res = list(range(n)), n
+
+    def find(x):
+        if x != parent[x]:
+            parent[x] = find(parent[x])
+        return parent[x]
+
+    for i, j in con:
+        x, y = find(i), find(j)
+        if x != y:
+            parent[x] = y
+            res -= 1
+
+    return res - 1
+
+
+if __name__ == '__main__':
+    n = int(input())
+    line = input()
+    line = line[2:len(line)-2]
+    line = line.split('],[')
+    for i in range(len(line)):
+        line[i] = line[i].replace(',',' ')
+        line[i] = list(map(int,line[i].split()))
+    print(solve(n,line))

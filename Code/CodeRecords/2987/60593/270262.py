@@ -1,0 +1,5 @@
+s=list(input())
+rs=s.copy()
+rs.reverse()
+s.extend(rs)
+print(''.join(s))

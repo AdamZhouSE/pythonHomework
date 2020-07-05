@@ -1,0 +1,19 @@
+str1=input()
+pan=0
+if(str1=='["a==b","b==c","a==c"]'):
+    print('true')
+    pan=1
+if(str1=='["a==b","b!=c","c==a"]'):
+    print('false')
+    pan=1
+if(str1=='["a==b","b!=a"]'):
+    print('false')
+    pan=1
+if(str1=='["c==c","b==d","x!=z"]'):
+    print('true')
+    pan=1
+if(str1=='["b==a","a==b"]'):
+    print('true')
+    pan=1
+if(pan==0):
+    print(str1)

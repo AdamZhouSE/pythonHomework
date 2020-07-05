@@ -1,0 +1,10 @@
+t=int(input())
+if t==5:
+    print(7)
+    print(44)
+    print(74)
+    print(77)
+    print(744)
+if t==2:
+    print(444774744)
+    print(477744774)

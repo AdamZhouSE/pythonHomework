@@ -1,0 +1,10 @@
+num=(int)(input())
+judge=True
+while(num>0):
+    cur=num&1
+    next=(num>>1)&1
+    if(cur==next):
+        judge=False
+        break
+    num>>=1
+print(judge)

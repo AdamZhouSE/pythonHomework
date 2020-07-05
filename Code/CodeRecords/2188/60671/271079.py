@@ -1,0 +1,29 @@
+list0=input().split()
+length=int(list0[0])
+k=int(list0[1])
+string1=input()
+string2=input()
+time=int(input())
+while(time>0):
+    time-=1
+    list1=input().split()
+    st1=int(list1[0])
+    en1=int(list1[1])
+    st2=int(list1[2])
+    en2=int(list1[3])
+    T=string1[st1-1:en1]
+    P=string2[st2-1:en2]
+    len1=len(T)
+    len2=len(P)
+    kcon=0
+    pcon=0
+    visited=[False]*len1
+    for i in range(len1):
+        if(T[i]==P[0]):
+            if(T[i:i+len2]==P)and(visited[i]==False):
+                pcon+=i
+                pcon+=st1
+                kcon+=1
+                for m in range(len2):
+                    visited[m+i]=True
+    print(kcon*k-pcon)

@@ -1,0 +1,15 @@
+res = eval(input())
+veganFriendly = int(input())
+maxPrice = int(input())
+maxDistance = int(input())
+tmp = []
+for i in res:
+    if i[2] == veganFriendly and i[3] <= maxPrice and i[4] <= maxDistance:
+        tmp.append(i)
+print(tmp)
+tmp.sort(key=lambda x: x[0], reverse=True)
+tmp.sort(key=lambda x: x[1], reverse=True)
+ans = []
+for i in tmp:
+    ans.append(i[0])
+print(ans)

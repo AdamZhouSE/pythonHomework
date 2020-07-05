@@ -1,0 +1,10 @@
+num=int(input());
+string=""
+while(num!=0):
+    a=abs(num%(-2));
+    if(a==1):
+        string=string+"1";
+    else:
+        string=string+"0";
+    num=(num-a)//(-2)
+print(string[::-1])

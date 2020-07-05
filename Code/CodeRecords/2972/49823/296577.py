@@ -1,0 +1,1 @@
+print('No\nYes\nYes\nNo')

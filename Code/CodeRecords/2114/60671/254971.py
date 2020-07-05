@@ -1,0 +1,18 @@
+num=int(input())
+while(num%4==0):
+    num/=4
+if(num%8==7):
+    print(4)
+else:
+    a=0
+    i=True
+    while(a**2<=num):
+        b=int((num-a**2)**0.5)
+        if(a**2+b**2==num):
+            print(2)
+            #break
+            i=False
+            break
+        a+=1
+    if(i):
+        print(3)

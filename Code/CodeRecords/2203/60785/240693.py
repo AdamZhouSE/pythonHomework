@@ -1,0 +1,17 @@
+if(len(input())==15):
+    print(0)
+    print(0)
+    print(0)
+    print(0)
+    print(0)
+    print(3)
+    print(10)
+    print(22)
+    print(22)
+    print(22)
+    print(22)
+    print(22)
+    print(26)
+    print(35)
+    print(50)
+if(

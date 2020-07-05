@@ -1,0 +1,5 @@
+temp=input().split(',')
+b=map(eval,temp)
+list1=list(b)
+c=eval(input())
+print(c in list1)

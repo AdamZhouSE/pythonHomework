@@ -1,0 +1,19 @@
+s1=list(eval(input()))
+s1=list(map(int,s1))
+length=len(s1)
+res=1
+i=1
+thisnum=s1[0]
+maxres=1
+while(i<length):
+    if s1[i]>thisnum:
+        res+=1
+        thisnum=s1[i]
+        i+=1
+    else:
+        maxres=max(maxres,res)
+        res=1
+        thisnum=s1[i]
+        i+=1
+maxres=max(maxres,res)
+print(maxres)

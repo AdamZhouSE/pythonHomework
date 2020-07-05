@@ -1,0 +1,11 @@
+num=int(input())
+first=num//26
+second=num%26
+abc="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+if(first>0):
+    i=abc[first-1]
+    ii=abc[second-1]
+    print(i+ii)
+else:
+    ii=abc[second-1]
+    print(ii)

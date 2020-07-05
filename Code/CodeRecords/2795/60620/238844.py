@@ -1,0 +1,17 @@
+n=int(input())
+a=sorted(set(list(map(int,input().split()))))
+if(len(a)==1):
+    print('0')
+elif(len(a)==2):
+    x=a[1]-a[0]
+    if(x%2==0):
+        print(x//2)
+    else:
+        print(x)
+elif(len(a)==3):
+    if(a[1]-a[0]==a[2]-a[1]):
+        print(a[1]-a[0])
+    else:
+        print('-1')
+else:
+    print('-1')

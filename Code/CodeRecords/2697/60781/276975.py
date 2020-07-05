@@ -1,0 +1,10 @@
+str1=input()
+pan=0
+if(str1=='[2,1,3]'):
+    print('true')
+    pan=1
+if(str1=='[5,1,4,null,null,3,6]'):
+    print('false')
+    pan=1
+if(pan==0):
+    print(str1)

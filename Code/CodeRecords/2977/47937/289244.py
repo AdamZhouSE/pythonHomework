@@ -1,0 +1,127 @@
+a=input()
+
+while(a!="!"):
+    #print(a)
+    #print()
+    i=0
+    while i<len(a):
+        if(a[i]<='z' and a[i]>='a'):
+            if(a[i]=='z'):
+                print('a',end="")
+            elif(a[i]=='y'):
+                print('b',end="")
+            elif(a[i]=='x'):
+                print('c',end="")
+            elif(a[i]=='w'):
+                print('d',end="")
+            elif(a[i]=='v'):
+                print('e',end="")
+            elif(a[i]=='u'):
+                print('f',end="")
+            elif(a[i]=='t'):
+                print('g',end="")
+            elif(a[i]=='s'):
+                print('h',end="")
+            elif(a[i]=='r'):
+                print('i',end="")
+            elif(a[i]=='q'):
+                print('j',end="")
+            elif(a[i]=='p'):
+                print('k',end="")
+            elif(a[i]=='o'):
+                print('l',end="")
+            elif(a[i]=='n'):
+                print('m',end="")
+            elif(a[i]=='m'):
+                print('n',end="")
+            elif(a[i]=='l'):
+                print('o',end="")
+            elif(a[i]=='k'):
+                print('p',end="")
+            elif(a[i]=='j'):
+                print('q',end="")
+            elif(a[i]=='i'):
+                print('r',end="")
+            elif(a[i]=='h'):
+                print('s',end="")
+            elif(a[i]=='g'):
+                print('t',end="")
+            elif(a[i]=='f'):
+                print('u',end="")
+            elif(a[i]=='e'):
+                print('v',end="")
+            elif(a[i]=='d'):
+                print('w',end="")
+            elif(a[i]=='c'):
+                print('x',end="")
+            elif(a[i]=='b'):
+                print('y',end="")
+            elif(a[i]=='a'):
+                print('z',end="")
+        elif(a[i]<='Z' and a[i]>='A'):
+            if(a[i]=='Z'):
+                print('A',end="")
+            elif(a[i]=='Y'):
+                print('B',end="")
+            elif(a[i]=='X'):
+                print('C',end="")
+            elif(a[i]=='W'):
+                print('D',end="")
+            elif(a[i]=='V'):
+                print('E',end="")
+            elif(a[i]=='U'):
+                print('F',end="")
+            elif(a[i]=='T'):
+                print('G',end="")
+            elif(a[i]=='S'):
+                print('H',end="")
+            elif(a[i]=='R'):
+                print('I',end="")
+            elif(a[i]=='Q'):
+                print('J',end="")
+            elif(a[i]=='P'):
+                print('K',end="")
+            elif(a[i]=='O'):
+                print('L',end="")
+            elif(a[i]=='N'):
+                print('M',end="")
+            elif(a[i]=='M'):
+                print('N',end="")
+            elif(a[i]=='L'):
+                print('O',end="")
+            elif(a[i]=='K'):
+                print('P',end="")
+            elif(a[i]=='J'):
+                print('Q',end="")
+            elif(a[i]=='I'):
+                print('R',end="")
+            elif(a[i]=='H'):
+                print('S',end="")
+            elif(a[i]=='G'):
+                print('T',end="")
+            elif(a[i]=='F'):
+                print('U',end="")
+            elif(a[i]=='E'):
+                print('V',end="")
+            elif(a[i]=='D'):
+                print('W',end="")
+            elif(a[i]=='C'):
+                print('X',end="")
+            elif(a[i]=='B'):
+                print('Y',end="")
+            elif(a[i]=='A'):
+                print('Z',end="") 
+        else:
+            print(a[i],end="")
+        
+        i=i+1
+        
+        
+    
+    a=input()
+    
+    if(a!="!"):
+        print("",end=" ")
+        print("")
+    else:
+        break

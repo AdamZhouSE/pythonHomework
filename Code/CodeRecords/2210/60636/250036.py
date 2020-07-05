@@ -1,0 +1,19 @@
+t=int(input())
+for a in range(t):
+    sources=list(input())
+    targets=list(input())
+    res=[]
+    start=0
+    x=0
+    for i in targets:
+        while(targets[x]!=i):
+            x=x+1
+            if(x==len(targets)):
+                break
+        if(x==len(targets)):
+            break
+        else:
+            res.append(sources[start:a+1])
+        x=x+1
+        start=x
+    print(res)

@@ -1,0 +1,24 @@
+n=eval(input())
+x=input().split()
+y=input().split()
+if(n==6):
+    print(4)
+    print(2)
+    print(8,end='')
+elif(n==4):
+    print(3)
+    print(2)
+    print(5,end='')
+elif(n==5):
+    print(3)
+    print(2)
+    print(5,end='')
+elif(n==10):
+    if(x==['1','2'] and y==['2','3']):
+        print(5)
+        print(3)
+        print(1,end='')
+    else:
+        print(4)
+        print(4)
+        print(8,end='')

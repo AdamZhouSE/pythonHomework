@@ -1,0 +1,5 @@
+n = eval(input())
+nums = list(map(int, input().split(' ')))
+res = sorted(list(set(nums)), key=list(reversed(nums)).index, reverse=True)
+print(len(res))
+print(*res)

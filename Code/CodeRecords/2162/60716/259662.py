@@ -1,0 +1,6 @@
+strs = input().split(',')
+print(strs)
+x = float(strs[0])
+n = float(strs[1])
+ans = pow(x,n)
+print("{:.5f}".format(ans))

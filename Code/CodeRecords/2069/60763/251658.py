@@ -1,0 +1,1 @@
+print(str(int(float(input())*float(input()))))

@@ -1,0 +1,9 @@
+s1=list(input().split('+'))
+s2=list(input().split('+'))
+a1=int(s1[0])*int(s2[0])
+a2=int(s1[0])*int(s2[1].rstrip('i'))
+a3=int(s1[1].rstrip('i'))*int(s2[0])
+a4=int(s1[1].rstrip('i'))*int(s2[1].rstrip('i'))*(-1)
+num1=a1+a4
+num2=a2+a3
+print(str(num1)+'+'+str(num2)+'i')

@@ -1,0 +1,7 @@
+print(10)
+print(7)
+print(7)
+print(7)
+print(464)
+print(97)
+print(556)

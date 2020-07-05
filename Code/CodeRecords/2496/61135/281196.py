@@ -1,0 +1,19 @@
+str=input()
+num=0;
+ch="a"
+res=""
+for x in range (97,123):
+    s=chr(x);
+    if(str.count(s)>num):
+        num=str.count(s)
+        ch=s
+if(num>(len(str)+1)/2):
+    print("")
+else:
+    str=str.replace(ch,"")
+    a=num;
+    while(num>1):
+        res=res+ch+str[a-num]
+        num=num-1
+    res=res+ch
+    print(res)

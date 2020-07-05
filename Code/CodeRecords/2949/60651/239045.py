@@ -1,0 +1,5 @@
+inlist=input().split()
+inlist.remove("0")
+inlist.reverse()
+outlist=" ".join(inlist)
+print(outlist,end=" ")

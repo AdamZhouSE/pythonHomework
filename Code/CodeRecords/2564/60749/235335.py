@@ -1,0 +1,4 @@
+
+a=input()
+a.strip("[")
+

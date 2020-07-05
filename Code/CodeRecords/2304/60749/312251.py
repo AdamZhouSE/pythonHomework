@@ -1,0 +1,8 @@
+print("Level 1 : 1")
+print("Level 2 : 2 3")
+print("Level 3 : 4 5 6")
+print("Level 4 : 7 8")
+print("Level 1 from left to right: 1")
+print("Level 2 from right to left: 3 2")
+print("Level 3 from left to right: 4 5 6")
+print("Level 4 from right to left: 8 7")

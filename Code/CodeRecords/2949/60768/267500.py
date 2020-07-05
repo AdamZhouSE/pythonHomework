@@ -1,0 +1,5 @@
+s = input().split(' ')
+s.pop()
+s.reverse()
+to_str = ' '.join(s)
+print(to_str, end=' ')

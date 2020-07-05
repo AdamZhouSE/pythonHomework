@@ -1,0 +1,34 @@
+num=int(input());
+for i in range(num):
+    s=input();
+    t=input();
+    count=0;
+    if(s[0]!=t[0]):
+        count=1;
+    i=1;
+    while(i<len(t)):
+        if(i>=len(s)):
+            if(t[i]!=s[-1]):
+                s=s+t[i];
+            else:
+                count=1;
+                break;
+        else:
+            if(s[i]!=t[i]):
+                if(t[i]!=s[i-1]):
+                    s=s[:i]+t[i]+s[i:];
+                else:
+                    count=1;
+                    break;
+            else:
+                if(i!=len(s)-1):
+                    if(s[i]==t[i+1])&(s[i+1]!=t[i+1]):
+                        s = s[:i] + t[i] + s[i:];
+        i+=1;
+    if(count==0):
+        if(s==t):
+            print("Yes");
+        else:
+            print("No");
+    else:
+        print("No")

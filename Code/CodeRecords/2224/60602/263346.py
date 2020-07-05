@@ -1,0 +1,16 @@
+temp=str(input());
+i=0;
+list=[];
+while(i<len(temp)):
+    list.append(int(temp[i]));
+    i+=1;
+q=list.index(max(list));
+MAX=max(list);
+list[q]=list[0];
+list[0]=MAX;
+ans="";
+i=0;
+while(i<len(list)):
+    ans+=str(list[i]);
+    i+=1;
+print(ans);

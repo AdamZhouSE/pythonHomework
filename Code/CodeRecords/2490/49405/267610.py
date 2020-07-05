@@ -1,0 +1,1 @@
+print(sorted(list(set(eval(input())) & set(eval(input())))))

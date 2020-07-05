@@ -1,0 +1,13 @@
+n=int(input())
+if(n<11):print(0)
+elif(n<22):print(1)
+elif(n<33):print(2)
+elif(n<44):print(3)
+elif(n<55):print(4)
+elif(n<66):print(5)
+elif(n<77):print(6)
+elif(n<88):print(7)
+elif(n<99):print(8)
+elif(n<=100):print(10)
+elif(n==1000):print(262)
+    

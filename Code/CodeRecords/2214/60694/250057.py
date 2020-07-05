@@ -1,0 +1,6 @@
+x = input().split("+")
+y = input().split("+")
+realPart = int(x[0]) * int(y[0]) - int(x[1][:-1]) * int(y[1][:-1])
+imaginaryPart = int(x[0]) * int(y[1][:-1]) + int(y[0]) * int(x[1][:-1])
+ans = "{}+{}i".format(realPart, imaginaryPart)
+print(ans)

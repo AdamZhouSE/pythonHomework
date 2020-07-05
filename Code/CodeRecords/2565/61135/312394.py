@@ -1,0 +1,10 @@
+num1=eval("["+input()+"]")
+num2=eval("["+input()+"]")
+num1.extend(num2)
+num1=sorted(nums)
+res=0
+if(len(num1)%2==1):
+    res=num1[len(num1)//2]
+else:
+    res=(numlist1[len(numlist1)//2]+numlist1[len(numlist1)//2-1])/2
+print(format(res,'.5f'))

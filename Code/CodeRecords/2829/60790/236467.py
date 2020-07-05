@@ -1,0 +1,11 @@
+n=int(input())
+list1=input().split()
+list1=list(map(int,list1))
+list1.sort()
+if(len(list1)==2):
+    print(0)
+else:
+    if((list1[-1]-list1[1])<(list1[-2]-list1[0])):
+        print(list1[-1]-list1[1])
+    else:
+        print(list1[-2]-list1[0])

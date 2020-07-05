@@ -1,0 +1,17 @@
+t=int(input())
+for ex in range(0,t):
+    n=int(input())
+    prime=[2,3,5]
+    temp=7
+    while prime[len(prime)-1]*prime[len(prime)-2]*prime[len(prime)-3]<n:
+        while True:
+            for i in range(2,int(temp/2)):
+                if temp%i==0:
+                    break
+            else:
+                prime.append(temp)
+                break
+    if prime[len(prime)-1]*prime[len(prime)-2]*prime[len(prime)-3]==n:
+        print(1)
+    else:
+        print(0)

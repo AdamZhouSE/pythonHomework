@@ -1,0 +1,13 @@
+rb=input()
+str1=input()
+str2=input()
+str3=input()
+target=list(map(int,str1.split()))
+list_A=list(map(int,str2.split()))
+list_B=list(map(int,str3.split()))
+list_A.sort()
+list_B.sort()
+if(list_A[target[0]-1]<list_B[len(list_B)-target[1]]):
+    print("YES")
+else:
+    print("NO")

@@ -1,0 +1,1 @@
+print("%.5f"%pow(float(input()),int(input())))

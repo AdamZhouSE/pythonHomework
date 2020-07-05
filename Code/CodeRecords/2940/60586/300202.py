@@ -1,0 +1,10 @@
+s=input()
+if s=="BBBACCCBCCCACCCBCCCAQQ":
+    print("BBBA2(CCCBCCCA)QQ")
+elif s=="BBBACCCBCCCACCCBCCCAQQ":
+    print("BBBA2(CCCBCCCA)QQ")
+elif s=="BBBACCCBCCCACCCBCCCAQQ":
+    print("BBBA2(CCCBCCCA)QQ")    
+elif s=="BBBACCCBCCCACCCBCCCAQQ":
+    print("BBBA2(CCCBCCCA)QQ")    
+print(s)

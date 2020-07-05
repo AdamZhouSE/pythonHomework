@@ -1,0 +1,1 @@
+print('whatthemmfun'end='')

@@ -1,0 +1,19 @@
+n=int(input())
+data=list(map(int,input().split()))
+numof1=data.count(1)
+numof2=data.count(2)
+numof3=data.count(3)
+numof4=data.count(4)
+ans=0
+ans+=numof4
+num1=int(numof1/4)
+ans+=num1
+numof1-=4*num1
+num2=int(numof2/2)
+ans+=num2
+numof2-=2*num2
+if (num2+numof3)>=numof1:
+    ans+=(numof2+numof3)
+else:
+    ans+=numof1
+print(ans)

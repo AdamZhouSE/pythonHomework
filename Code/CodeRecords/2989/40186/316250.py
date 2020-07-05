@@ -1,0 +1,11 @@
+a = input()
+b = input()
+c = input()
+d = []
+d.append(a)
+d.append(b)
+d.append(c)
+d.sort()
+print(d[0])
+print(d[1])
+print(d[2])

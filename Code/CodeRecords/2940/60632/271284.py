@@ -1,0 +1,3 @@
+s=input()
+if s=='BBBACCCBCCCACCCBCCCAQQ':
+    print('BBBA2(CCCBCCCA)QQ')

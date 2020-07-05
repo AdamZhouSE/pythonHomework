@@ -1,0 +1,19 @@
+N=int(input())
+for n in range(0,N):
+    T=int(input())
+    result=""
+    while(T!=0):
+        if(T==1):
+            result="4"+result
+            break
+        if(T==2):
+            result="7"+result
+            break
+        else:
+            if(T%2==0):
+                result="7"+result
+                T=int((T-1)/2)
+            else:
+                result="4"+result
+                T=int((T-1)/2)
+    print(result)

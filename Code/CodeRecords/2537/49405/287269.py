@@ -1,0 +1,1 @@
+print((eval(input()).sort())[int(input()) - 1])

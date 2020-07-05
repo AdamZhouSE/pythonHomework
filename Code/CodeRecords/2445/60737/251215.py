@@ -1,0 +1,6 @@
+com = input().replace('"', '').replace('s = ', '').replace('t = ', '').split(', ')
+ls = list(com[0])
+lt = list(com[1])
+ls.sort()
+lt.sort()
+print('true' if ls==lt else 'false')

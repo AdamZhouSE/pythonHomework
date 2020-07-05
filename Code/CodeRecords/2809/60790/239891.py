@@ -1,0 +1,15 @@
+n=int(input())
+wood=input().split()
+wood=list(map(int,wood))
+wood.sort()
+if(n%2==1):
+    mid=int(n/2)
+    list1=wood[0:mid]
+    list2=wood[mid:]
+else:
+    mid=int(n/2)
+    list1=wood[0:mid]
+    list2=wood[mid:]
+a=sum(list1)
+b=sum(list2)
+print(a*a+b*b)

@@ -1,0 +1,6 @@
+line=input()
+line=line.replace("[","")
+line=line.replace("]","")
+a=list(map(int,line.split(",")))
+a.sort()
+print(a)

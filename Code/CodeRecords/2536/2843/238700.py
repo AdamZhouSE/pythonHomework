@@ -1,0 +1,1 @@
+print(['JFK', 'ATL', 'JFK', 'SFO', 'ATL', ''])

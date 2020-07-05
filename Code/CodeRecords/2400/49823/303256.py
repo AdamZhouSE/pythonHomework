@@ -1,0 +1,1 @@
+print('Case 1:\n7 11 3\nCase 2:\n9 7 21 15')

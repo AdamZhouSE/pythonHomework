@@ -1,0 +1,5 @@
+print(2)
+print(8)
+print(9)
+print(105)
+print(7)

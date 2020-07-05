@@ -1,0 +1,19 @@
+str1=input()
+pan=0
+if(str1=='ereere'):
+    print('eeeerr')
+    pan=1
+if(str1=='erejere'):
+    print('eeeerrj')
+    pan=1
+if(str1=='reee'):
+    print('eeer')
+    pan=1
+if(str1=='ree'):
+    print('eer')
+    pan=1
+if(str1=='reere'):
+    print('eeerr')
+    pan=1
+if(pan==0):
+    print(str1)

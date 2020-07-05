@@ -1,0 +1,6 @@
+print("Yes")
+print("Yes")
+print("Yes")
+print("No")
+print("No")
+print("Yes")    

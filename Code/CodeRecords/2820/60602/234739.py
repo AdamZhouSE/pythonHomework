@@ -1,0 +1,23 @@
+def Walaila(list):
+    max=1;
+    i=0;
+    count=0;
+    while(i<len(list)):
+        j=0;
+        while(j<len(list)):
+            if(list[j]==list[i]):
+                count+=1;
+            j+=1;
+        if(count>max):
+            max=count;
+        count=0;
+        i+=1;
+    print(max);
+Total=int(input());
+i=0;
+list=[];
+while(i<Total):
+    temp=str(input());
+    list.append(temp);
+    i+=1;
+Walaila(list);

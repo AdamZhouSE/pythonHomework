@@ -1,0 +1,19 @@
+n=int(input())
+m=int(input())
+count=0
+while(n!=m):
+    if(n>m):
+        count=count+n-m
+        n=m
+    else:
+        if(2*n-m>0):
+            if(1+2*n-m>(n-int(m/2)+1)):
+                count=count+(n-int(m/2))
+                n=int(m/2)
+            else:
+                count=count+1
+                n=n*2
+        else:
+            count=count+1
+            n=n*2
+print(count)

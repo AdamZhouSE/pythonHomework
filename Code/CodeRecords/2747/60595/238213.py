@@ -1,0 +1,1 @@
+print("[\n  [\"hit\",\"hot\",\"dot\",\"dog\",\"cog\"],\n  [\"hit\",\"hot\",\"lot\",\"log\",\"cog\"]\n]")

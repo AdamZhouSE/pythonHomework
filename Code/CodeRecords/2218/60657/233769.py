@@ -1,0 +1,5 @@
+a=input()
+lista=list(a)
+lista.sort()
+b=int(lista[-1])*int(lista[-2])*int(lista[-3])
+print(b)

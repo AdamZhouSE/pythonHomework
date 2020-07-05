@@ -1,0 +1,12 @@
+nums1=input().split(",")
+nums1=list(map(int,nums1))
+nums2=input().split(",")
+nums2=list(map(int,nums2))
+s=nums1+nums2
+s.sort()
+lengt=len(s)
+if(lengt%2==0):
+    result=(s[lengt//2-1]+s[lengt//2])/2
+else:
+    result=(s[lengt//2]*2)/2
+print("%.5f"%result)
