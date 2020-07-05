@@ -40,16 +40,8 @@ def calc_line_num(file):  # 计算单个文件内的代码行数
 
 
 if __name__ == '__main__':
-    files = collect_files(base_path)
-    total_code_num = 0   # 统计文件代码行数计数变量
-    total_blank_num = 0  # 统计文件空行数计数变量
-    total_annotate_num = 0  # 统计文件注释行数计数变量
-    for f in files:
-        code_num, blank_num, annotate_num = calc_line_num(f)
-        total_code_num += code_num
-        total_blank_num += blank_num
-        total_annotate_num += annotate_num
-
+    filename = "Test/test_if_else.py"
+    total_code_num, total_blank_num, total_annotate_num = calc_line_num(filename)
     print(u'代码总行数为：  %s' % total_code_num)
     print(u'空行总行数为：  %s' % total_blank_num)
     print(u'注释行总行数为： %s' % total_annotate_num)

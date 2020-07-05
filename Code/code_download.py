@@ -10,6 +10,7 @@ import os
 import zipfile as z
 import requests
 
+
 def callbackfunc(blocknum, blocksize, totalsize):
     percent = 100 * blocknum * blocksize / totalsize
     if percent > 100:

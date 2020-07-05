@@ -2,6 +2,7 @@
 检测面向用例情况
 if-elif-else结构（包括内部的内容）占该题总行数的40%
 """
+import os
 
 
 def cal_if_else_structure(file):  # 统计if-else结构的数量
@@ -54,7 +55,7 @@ def cal_if_else_structure(file):  # 统计if-else结构的数量
 
 
 if __name__ == "__main__":
-    res, percent = cal_if_else_structure("Code/test_if_else.py")
+    res, percent = cal_if_else_structure("Test/test_if_else.py")
     print(res, percent)
 
 
