@@ -60,12 +60,6 @@ if __name__ == '__main__':
     f.close()
     '''
 
-    '''
-    问题：
-    1. 代码行数为38的代码异常多，经检查与答案一模一样，属于无效代码；
-    2. 直接输出答案的代码并没有被判定为面向用例
-    3. user_id为60829的代码被错误地判定为面向用例
-    '''
     # 调取题号为2061的数据
     f = open('..//Data/updatedDatabase of Mooctest.json', encoding='utf-8')
     data = json.loads(f.read())
