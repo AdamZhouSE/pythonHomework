@@ -1,0 +1,11 @@
+t=int(input())
+while(t>0):
+    t-=1
+    n=int(input())
+    l=[0]+[1]+[1]+[3]
+    k=3
+    while(k<n):
+        p=(l[k]+l[k-1])+2**(k-1)
+        l.append(p)
+        k+=1
+    print(l[n])

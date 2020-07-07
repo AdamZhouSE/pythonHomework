@@ -1,0 +1,1 @@
+[{"input":"8 3 \n2 R \n6 L \n1 R \n1 L\n8 L \n1 R \n2 R \n2 L","output":"3"},{"input":"8 5 \n2 R \n6 L \n1 R \n1 L\n8 L \n1 R \n2 R \n2 L","output":"0"},{"input":"6 2 \n2 R \n6 L \n1 R \n8 L \n1 R \n2 R ","output":"6"},{"input":"6 3 \n2 R \n6 L \n1 R \n8 L \n1 R \n2 R ","output":"1"},{"input":"8 2 \n2 R \n6 L \n1 R \n1 L\n8 L \n1 R \n5 R \n3 L","output":"9"}]

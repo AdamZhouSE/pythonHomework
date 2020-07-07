@@ -1,0 +1,1 @@
+[{"input":"BBBACCCBCCCACCCBCCCAQQ","output":"BBBA2(CCCBCCCA)QQ\n"},{"input":"AAAAAAAAAABABABCCD","output":"9(A)3(AB)CCD\n"},{"input":"sdssssssssssssssssssssss","output":"sd22(s)\n"},{"input":"ABTRYABTRYABTRYABTRY","output":"4(ABTRY)\n"},{"input":"HJGBNSXMNJVNX3NMBCSM","output":"HJGBNSXMNJVNX3NMBCSM\n"}]

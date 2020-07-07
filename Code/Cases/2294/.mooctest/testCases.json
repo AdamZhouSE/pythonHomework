@@ -1,0 +1,1 @@
+[{"input":"ABC\nBAC\nFDXEAG\nXDEFAG","output":"BCA\nXEDGAF\n"},{"input":"ABDECF\nDBEACF","output":"DEBFCA\n"},{"input":"ABCDEFGHIJK\nCBEDGFHAJIK","output":"CEGHFDBJKIA\n"},{"input":"AEKIB\nAIKBE","output":"IBKEA\n"},{"input":"GDKF\nDFKG","output":"FKDG\n"}]

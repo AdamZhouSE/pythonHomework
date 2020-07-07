@@ -6,16 +6,16 @@ import os
 
 
 def detect_cpp(filename):  # 检测C++代码: 代码中有头文件或者注释方法使用了//
-    with open(filename) as fp:
+    with open(filename, encoding="utf-8") as fp:
         content_list = fp.readlines()
         for content in content_list:
             content = content.strip()
             # 单独使用头文件判断 1429
             if content.startswith("#include"):
-                print(content)
+                # print(content)
                 return True
             if content.startswith("//"):
-                print(content)
+                # print(content)
                 return True
     return False
 

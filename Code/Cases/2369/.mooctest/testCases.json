@@ -1,0 +1,1 @@
+[{"input":"5\nabc\nb**\ncd*\nde*\ne**","output":"abcde"},{"input":"10\nabe\nbcd\nd**\ncfg\nf**\ng**\nehi\nh*j\ni**\nj**","output":"abcfgdehji"},{"input":"3\n123\n2**\n3**","output":"123"},{"input":"6\nabc\nbdi\ncj*\nd**\ni**\nj**","output":"abdicj"},{"input":"6\n749\n436\n3**\n6**\n98*\n8**","output":"743698"}]

@@ -1,0 +1,1 @@
+[{"input":"aaa","output":"\n"},{"input":"bb","output":"\n"},{"input":"aab","output":"aba\n"},{"input":"aaabb","output":"ababa\n"},{"input":"aaab","output":"\n"}]

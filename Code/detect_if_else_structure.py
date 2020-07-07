@@ -32,7 +32,7 @@ def cal_if_else_structure(file):  # 统计if-else结构的数量
                         count_blank += 1
                     else:
                         break
-                print("if-else句首空格", count_blank)
+                # print("if-else句首空格", count_blank)
                 # 统计内部内容，句首空格数大于if-else结构的句首空格数
                 for j in range(i+1, length):
                     count_in_blank = 0
@@ -41,12 +41,12 @@ def cal_if_else_structure(file):  # 统计if-else结构的数量
                             count_in_blank += 1
                         else:
                             break
-                    print("内部空格", count_in_blank)
+                    # print("内部空格", count_in_blank)
                     if count_in_blank > count_blank:
                         file_if_else_num += 1
                     else:
                         break
-        print(file_code_num, file_if_else_num)
+        # print(file_code_num, file_if_else_num)
         per = file_if_else_num/file_code_num
         if per > 0.4:
             return True, per

@@ -1,0 +1,1 @@
+[{"input":"a\n5\n3\n1 bba\n3\n2 ab\n3","output":"1\n6\n10\n"},{"input":"a\n1\n3","output":"1\n"},{"input":"d\n5\n3\n1 bcxzba\n3\n2 axzcczcxv1zb\n3\n","output":"1\n7\n22\n"},{"input":"aaa\n1\n3","output":"6\n"},{"input":"a\n5\n3\n1 bbasdcxz\n3\n2 abzcxzxczcx\n3","output":"1\n11\n29\n"}]

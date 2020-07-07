@@ -1,0 +1,1 @@
+[{"input":"GG","output":"False\n"},{"input":"LLLLLL","output":"True\n"},{"input":"GGLLGG","output":"True\n"},{"input":"GGLGLGL","output":"True\n"},{"input":"GL","output":"True\n"}]

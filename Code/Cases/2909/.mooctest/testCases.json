@@ -1,0 +1,1 @@
+[{"input":"abcde\n2\n3\n3","output":"0\n"},{"input":"aaaa\n1\n3\n3","output":"2\n"},{"input":"aabcabcab\n2\n2\n3","output":"3\n"},{"input":"aababcaab\n2\n3\n4","output":"2\n"}]

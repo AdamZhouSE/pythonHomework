@@ -1,0 +1,1 @@
+[{"input":"5\nabcde","output":"11607365\n"},{"input":"1\na","output":"26\n"},{"input":"3\nsss","output":"17525\n"},{"input":"3\nsas","output":"17474\n"},{"input":"2\nab","output":"675\n"},{"input":"3\nabc","output":"17473\n"}]

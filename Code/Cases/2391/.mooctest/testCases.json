@@ -1,0 +1,1 @@
+[{"input":"5  \na\nb\nc\nad\nacd\n3\nb\na\na","output":"OK\nOK\nREPEAT\n"},{"input":"5  \na\nb\nc\nad\nacd\n3\na\na\ne","output":"OK\nREPEAT\nWRONG\n"},{"input":"5  \na\nb\nc\nad\nacd\n5\na\na\ne\ne\nb","output":"OK\nREPEAT\nWRONG\nWRONG\nOK\n"},{"input":"5  \na\nb\nc\nad\nacd\n1\nb","output":"OK\n"}]

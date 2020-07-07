@@ -1,0 +1,1 @@
+[{"input":"banana","output":"ana\n"},{"input":"ananab","output":"ana\n"},{"input":"ananabk","output":"ana\n"},{"input":"anana","output":"ana\n"},{"input":"abcd","output":"\n"}]

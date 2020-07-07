@@ -1,0 +1,1 @@
+[{"input":"[\"c\", \"f\", \"j\"]\nj","output":"c\n"},{"input":"[\"c\", \"f\", \"j\"]\ng","output":"j\n"},{"input":"[\"c\", \"f\", \"j\"]\nk","output":"c\n"},{"input":"[\"c\", \"f\", \"j\"]\na","output":"c\n"},{"input":"[\"c\", \"f\", \"j\"]\nc","output":"f\n"},{"input":"[\"c\", \"f\", \"j\"]\nd","output":"f\n"}]

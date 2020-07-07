@@ -19,11 +19,11 @@ def collect_files(directory):  # 在指定目录下统计所有的py文件，以
 
 
 def calc_line_num(file):  # 计算单个文件内的代码行数
-    with open(file) as fp:
+    with open(file, encoding='utf-8') as fp:
         content_list = fp.readlines()
         file_code_num = 0  # 当前文件代码行数计数变量
         file_blank_num = 0  # 当前文件空行数计数变量
-        file_annotate_num =0  # 当前文件注释行数计数变量
+        file_annotate_num = 0  # 当前文件注释行数计数变量
         for content in content_list:
             content = content.strip()
             # 统计空行
@@ -40,7 +40,7 @@ def calc_line_num(file):  # 计算单个文件内的代码行数
 
 
 if __name__ == '__main__':
-    filename = "Test/test_if_else.py"
+    filename = "Test/249310.py"
     total_code_num, total_blank_num, total_annotate_num = calc_line_num(filename)
     print(u'代码总行数为：  %s' % total_code_num)
     print(u'空行总行数为：  %s' % total_blank_num)

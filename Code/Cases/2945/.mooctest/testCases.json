@@ -1,0 +1,1 @@
+[{"input":"...........boyboyboyogirlyy......girl.......","output":"6\n2"},{"input":"......boyogirlyy......girl.......","output":"4\n2"},{"input":"...........boyboygirlboyogirlyy......girl.......","output":"6\n3"},{"input":"...........boyirboygirlboyogirlyy......girl.......","output":"6\n4"}]
