@@ -7,9 +7,9 @@
 import json
 import numpy as np
 import pandas as pd
-import cal_num_of_line as cl
-import detect_if_else_structure as ds
-import detect_py_file as df
+from Code import cal_num_of_line as cl
+from Code import detect_if_else_structure as ds
+from Code import detect_py_file as df
 
 pd.set_option('display.unicode.ambiguous_as_wide', True)
 pd.set_option('display.unicode.east_asian_width', True)
