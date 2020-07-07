@@ -47,24 +47,26 @@ def basic_analyse(data: dict):
         data[case_id]["median"] = grades.median()  # 中位数
         data[case_id]["var"] = grades.var()  # 方差
         data[case_id]["std"] = grades.std()  # 标准差
-        data[case_id]["user_count"] = grades.count()
+        data[case_id]["user_count"] = grades.count()  # 做题人数
     return data
 
 
 if __name__ == '__main__':
     '''
-    f = open('Data/Database of Sample.json', encoding='utf-8')
-    Data = json.loads(f.read())
-    save_as_file(delete(Data), 'Data/updatedDatabase of Sample.json')
-    f.close()
-
-
-    f = open('Data/Database of Mooctest.json', encoding='utf-8')
-    Data = json.loads(f.read())
-    save_as_file(delete(Data), 'Data/updatedDatabase of Mooctest.json')
-    f.close()
-    '''
+    # 处理mooctest数据
     f = open('..//Data/Database of Mooctest.json', encoding='utf-8')
     data = json.loads(f.read())
     save_as_file(basic_analyse(data), '..//Data/updatedDatabase of Mooctest.json')
     f.close()
+    '''
+
+    '''
+    问题：
+    1. 代码行数为38的代码异常多，经检查与答案一模一样，属于无效代码；
+    2. 直接输出答案的代码并没有被判定为面向用例
+    3. user_id为60829的代码被错误地判定为面向用例
+    '''
+    # 调取题号为2061的数据
+    f = open('..//Data/updatedDatabase of Mooctest.json', encoding='utf-8')
+    data = json.loads(f.read())
+    save_as_file(data["2061"], "2061.json")
