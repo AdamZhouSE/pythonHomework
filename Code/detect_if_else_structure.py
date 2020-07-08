@@ -21,6 +21,7 @@ def cal_if_else_structure(file):  # 统计if-else结构的数量
                 content_list_code.append(content_list[index])
             index += 1
         length = len(content_list_code)
+
         # 统计if-else结构
         for i in range(0, length):
             if "if" in content_list_code[i] or "elif" in content_list_code[i] or "else" in content_list_code[i]:

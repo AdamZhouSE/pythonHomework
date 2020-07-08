@@ -5,11 +5,8 @@
 """
 
 import json
-import numpy as np
 import pandas as pd
-from Code import cal_num_of_line as cl
-from Code import detect_if_else_structure as ds
-from Code import detect_py_file as df
+from Code import dectect_all as da
 import os
 
 pd.set_option('display.unicode.ambiguous_as_wide', True)
@@ -65,7 +62,6 @@ def analyse(data: list):
             i += 1
 
         data[case_id]["total_upload_times"] = sum([record["upload_times"] for record in records])
-        data[case_id]["average"] = sum([record["final_score"] for record in records]) / len(records)
         data[case_id]["user_count"] = len(records)
 
         # 计算测试用例个数
@@ -78,11 +74,13 @@ def analyse(data: list):
             print(testcase_filepath, "损坏")
 
         # 检测代码行数 & 面向用例情况 & 是否为python
-        num_of_iscpp = 0 # 非python计数
-        num_of_isco = 0 # 面向用例计数
+        num_of_iscpp = 0  # 非python计数
+        num_of_isco = 0  # 面向用例计数
+        num_of_isanswer = 0  # 与答案一致计数
         for record in records:
             user_id = record["user_id"]
             upload_id = str(record["final_upload_id"])
+            answerpath = 'Cases//' + case_id + "//.mooctest//answer.py"
             codepath = 'CodeRecords//' + case_id + "//" + user_id + "//" + upload_id + ".py"
 
             try:
@@ -91,25 +89,33 @@ def analyse(data: list):
                 record["is_case-oriented"] = True
 
                 # 代码行数
-                lst = cl.calc_line_num(codepath)
+                lst = da.calc_line_num(codepath)
                 record["num_of_line"] = lst[0]
 
                 if record["num_of_line"] > 0:
+                    # 检测是否为答案
+                    flag_answer = da.detect_is_answer(answerpath, codepath)
+                    record["is_answer"] = flag_answer
+                    if flag_answer:
+                        num_of_isanswer += 1
+
                     # 检测是否为cpp代码
-                    flag_cpp = df.detect_cpp(codepath)
+                    flag_cpp = da.detect_cpp(codepath)
                     record["is_cpp"] = flag_cpp
                     if flag_cpp:
-                        num_of_iscpp+=1
+                        num_of_iscpp += 1
 
                     # 面向用例情况
-                    flag, percentage = ds.cal_if_else_structure(codepath)
-                    record["is_case-oriented"] = flag
-                    if flag_cpp == False and flag == True:
-                        num_of_isco+=1
-            except:
+                    flag_co = da.detect_is_case_orinted(codepath)
+                    record["is_case-oriented"] = flag_co
+                    if flag_cpp == False and flag_co == True:
+                        num_of_isco += 1
+            except Exception as e:
+                print(e)
                 continue
 
         # 记录面向用例、非python情况
+        data[case_id]["num_of_isanswer"] = num_of_isanswer
         data[case_id]["num_of_iscpp"] = num_of_iscpp
         data[case_id]["num_of_isco"] = num_of_isco
 
@@ -117,15 +123,7 @@ def analyse(data: list):
 
 
 if __name__ == '__main__':
-    '''
-    f = open('../Data/sample.json', encoding='utf-8')
-    res = f.read()
-    data = json.loads(res)
-    save_as_file(sorting(data), '../Data/Database of Sample.json')
-    '''
+    with open('../Data/test_data.json', encoding='utf-8') as f:
+        data = json.loads(f.read())
+        save_as_file(sorting(data), '../Data/Database of Mooctest.json')
 
-    f = open('../Data/test_data.json', encoding='utf-8')
-    res = f.read()
-    rootdata = json.loads(res)
-    save_as_file(sorting(rootdata), '../Data/Database of Mooctest.json')
-    f.close()
