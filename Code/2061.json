@@ -26,17 +26,6 @@
             "is_answer": true
         },
         {
-            "user_id": "51584",
-            "final_score": 100,
-            "upload_times": 1,
-            "final_upload_id": 273023,
-            "final_code_url": "http://mooctest-dev.oss-cn-shanghai.aliyuncs.com/data/answers/4240/51584/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%9F%BA%E7%A1%80_1583378281196.zip",
-            "num_of_line": 38,
-            "is_cpp": false,
-            "is_case-oriented": false,
-            "is_answer": true
-        },
-        {
             "user_id": "60581",
             "final_score": 100,
             "upload_times": 1,
@@ -521,14 +510,20 @@
             "is_answer": false
         }
     ],
-    "total_upload_times": 65,
-    "user_count": 47,
+    "total_upload_times": 64,
+    "user_count": 46,
     "num_of_testCases": 1,
-    "num_of_isanswer": 37,
+    "num_of_isanswer": 36,
     "num_of_iscpp": 0,
     "num_of_isco": 5,
-    "average": 97.87234042553192,
+    "group": [
+        "group1"
+    ],
+    "difficulty": 1,
+    "planed_usercount": 55,
+    "average": 97.82608695652173,
     "median": 100.0,
-    "std": 14.586499149789462,
-    "num_of_full-score": 46
+    "std": 14.744195615489716,
+    "num_of_full-score": 45,
+    "num_of_valid_full-score": 4
 }

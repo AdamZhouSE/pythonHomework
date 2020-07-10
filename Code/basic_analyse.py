@@ -19,17 +19,18 @@ def basic_analyse(data: dict):
             del record["upload_records"]
 
         grades = pd.Series([record["final_score"] for record in records])
-        data[case_id]["average"] = grades.mean()  # 平均值
-        data[case_id]["median"] = grades.median()  # 中位数
-        data[case_id]["std"] = grades.std()  # 标准差
-        data[case_id]["user_count"] = len(records)  # 做题人数
-        data[case_id]["num_of_full-score"] = int(grades.value_counts()[100])  # 计算满分人数
+        details["average"] = grades.mean()  # 平均值
+        details["median"] = grades.median()  # 中位数
+        details["std"] = grades.std()  # 标准差
+        details["user_count"] = len(records)  # 做题人数
+        details["num_of_full-score"] = int(grades.value_counts()[100])  # 计算满分人数
+        details["num_of_valid_full-score"] = details["num_of_full-score"] - details["num_of_isanswer"]- details["num_of_iscpp"] - details["num_of_isco"]
 
     return data
 
 
 if __name__ == '__main__':
-    '''
+    ''''''
     # 处理mooctest数据
     with open('..//Data/Database of Mooctest.json', encoding='utf-8') as f:
         data = json.loads(f.read())
@@ -40,15 +41,16 @@ if __name__ == '__main__':
         data = json.loads(f.read())
         data = data["2061"]
         save_as_file(data, '2061.json')
-    '''
+
+    # 调取题号为2761的数据
     with open('../Data/updatedDatabase of Mooctest.json', encoding='utf-8') as f:
         data = json.loads(f.read())
-        user_info = {}
+        data = data["2761"]
+        save_as_file(data, '2761.json')
+
+    with open('../Data/updatedDatabase of Mooctest.json', encoding='utf-8') as f:
+        data = json.loads(f.read())
         for case_id, details in data.items():
-            user_info[case_id] = details["user_count"]
-        save_as_file(user_info,"usercount.json")
-
-
-
-
-
+            for name in ["case_zip", "records", "num_of_testCases", "group", "median", "std"]:
+                del details[name]
+    save_as_file(data, "../Data/simplifiedDatabase of Mooctest.json")

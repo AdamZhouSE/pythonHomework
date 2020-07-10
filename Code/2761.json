@@ -461,8 +461,14 @@
     "num_of_isanswer": 0,
     "num_of_iscpp": 0,
     "num_of_isco": 5,
+    "group": [
+        "group4"
+    ],
+    "difficulty": 3,
+    "planed_usercount": 49,
     "average": 96.95121951219512,
     "median": 100.0,
     "std": 13.913934058188207,
-    "num_of_full-score": 39
+    "num_of_full-score": 39,
+    "num_of_valid_full-score": 34
 }

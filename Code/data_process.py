@@ -14,6 +14,12 @@ pd.set_option('display.unicode.east_asian_width', True)
 
 
 def sorting(data: list):
+    """
+    将以用户为单位转换为以题目为单位
+    :param data: 原始数据
+    :return: 转换后的数据
+    """
+    data = delete_invaliduser(data)
     problems = {}
     count = 0
     for user_id, details in data.items():
@@ -35,12 +41,26 @@ def sorting(data: list):
     return analyse(problems)
 
 
-def save_as_file(data: dict, filename):
-    with open(filename, 'w', encoding='utf-8')as json_file:
-        json.dump(data, json_file, ensure_ascii=False, indent=4)
+def delete_invaliduser(data, casecount=10):
+    """
+    删除无效用户的记录（将做题数不足10题的用户判定为无效用户）
+    :param data: 原始数据
+    :param casecount: 做题数
+    :return: 删除后的数据
+    """
+    newdata = {}
+    for user_id, details in data.items():
+        if len(details["cases"]) > casecount:
+            newdata[user_id] = details
+    return newdata
 
 
 def analyse(data: list):
+    """
+    在原始数据集上增加检测信息、基本统计信息
+    :param data: 原始数据
+    :return: 更新后的数据
+    """
     for case_id, details in data.items():
         records = details["records"]
 
@@ -119,6 +139,27 @@ def analyse(data: list):
         data[case_id]["num_of_iscpp"] = num_of_iscpp
         data[case_id]["num_of_isco"] = num_of_isco
 
+    return merge_grouping(data)
+
+
+def save_as_file(data: dict, filename):
+    """
+    存档
+    :param data: 需要保存的数据（字典格式）
+    :param filename: 应保存的文件名
+    :return:
+    """
+    with open(filename, 'w', encoding='utf-8')as json_file:
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
+
+
+def merge_grouping(data:dict):
+    with open('../Data/grouping.json', encoding='utf-8') as f:
+        cases = json.loads(f.read())
+    for case_id, details in data.items():
+        data[case_id]["group"] = cases[case_id]["group"]
+        data[case_id]["difficulty"] = cases[case_id]["difficulty"]
+        data[case_id]["planed_usercount"] = cases[case_id]["planed_usercount"]
     return data
 
 
@@ -126,4 +167,3 @@ if __name__ == '__main__':
     with open('../Data/test_data.json', encoding='utf-8') as f:
         data = json.loads(f.read())
         save_as_file(sorting(data), '../Data/Database of Mooctest.json')
-
