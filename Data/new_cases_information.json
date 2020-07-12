@@ -1,0 +1,6300 @@
+{
+    "2908": {
+        "group": [
+            "group1",
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 99
+    },
+    "2530": {
+        "group": [
+            "group1",
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 90
+    },
+    "2531": {
+        "group": [
+            "group1",
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 90
+    },
+    "2892": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2894": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2081": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2177": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2190": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2164": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2178": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2180": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2196": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2200": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2188": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2198": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2199": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2936": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2173": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2141": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2181": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2183": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2184": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2186": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2171": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2169": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2142": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2182": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2185": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2212": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2547": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2548": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2558": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2561": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2589": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2592": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2607": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2610": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2614": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2615": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2617": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2618": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2629": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2647": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2145": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2172": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2140": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2474": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2482": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2061": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2278": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2279": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2280": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2342": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2344": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2358": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2424": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2425": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2438": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2466": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2498": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2442": {
+        "group": [
+            "group1",
+            "group2",
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 140
+    },
+    "2467": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2203": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2211": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2252": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2283": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2307": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2338": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2356": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2357": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2359": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2371": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2386": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2388": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2389": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2392": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2394": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2395": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2423": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2426": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2494": {
+        "group": [
+            "group1",
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 149
+    },
+    "2527": {
+        "group": [
+            "group1",
+            "group2",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 140
+    },
+    "2701": {
+        "group": [
+            "group1",
+            "group3",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 142
+    },
+    "2718": {
+        "group": [
+            "group1",
+            "group3",
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 204
+    },
+    "2209": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2346": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2176": {
+        "group": [
+            "group1",
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 149
+    },
+    "2373": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2179": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2339": {
+        "group": [
+            "group1",
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 99
+    },
+    "2193": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2340": {
+        "group": [
+            "group1",
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 99
+    },
+    "2345": {
+        "group": [
+            "group1",
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 99
+    },
+    "2341": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2080": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2088": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2139": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2084": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2085": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2089": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2090": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2091": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2103": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2104": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2086": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2087": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2124": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2584": {
+        "group": [
+            "group1",
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 109
+    },
+    "2063": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2064": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2096": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2109": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2110": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2068": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2069": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2070": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2098": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2099": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2100": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2065": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2067": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2153": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2093": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2095": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2097": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2105": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2116": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2117": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2121": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2122": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2126": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2127": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2111": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2114": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2120": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2094": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2106": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2108": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2113": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2119": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2134": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2291": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2406": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2167": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2415": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2237": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2286": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2295": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2149": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2236": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2253": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2439": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2288": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2289": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2299": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2300": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2301": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2308": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2311": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2312": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2315": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2378": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2383": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2151": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 97
+    },
+    "2168": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 97
+    },
+    "2273": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 97
+    },
+    "2296": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 97
+    },
+    "2304": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 97
+    },
+    "2266": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 47
+    },
+    "2490": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 97
+    },
+    "2440": {
+        "group": [
+            "group1",
+            "group2",
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 149
+    },
+    "2535": {
+        "group": [
+            "group1",
+            "group2",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 159
+    },
+    "2441": {
+        "group": [
+            "group1",
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 99
+    },
+    "2534": {
+        "group": [
+            "group1",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 109
+    },
+    "2152": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2444": {
+        "group": [
+            "group1",
+            "group2",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 140
+    },
+    "2387": {
+        "group": [
+            "group1",
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 149
+    },
+    "2396": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2412": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2390": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 47
+    },
+    "2537": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 47
+    },
+    "2741": {
+        "group": [
+            "group1",
+            "group2",
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 159
+    },
+    "2445": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2451": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2463": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 47
+    },
+    "2514": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 97
+    },
+    "2542": {
+        "group": [
+            "group1",
+            "group2",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 159
+    },
+    "2506": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2115": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2449": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2450": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 97
+    },
+    "2453": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2454": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2462": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2465": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2505": {
+        "group": [
+            "group1"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 47
+    },
+    "2464": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 97
+    },
+    "2397": {
+        "group": [
+            "group1",
+            "group2",
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 140
+    },
+    "2174": {
+        "group": [
+            "group1",
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 109
+    },
+    "2461": {
+        "group": [
+            "group1",
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 97
+    },
+    "2898": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2900": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2904": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2906": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2740": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 112
+    },
+    "2896": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2909": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2985": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2747": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 102
+    },
+    "2934": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2947": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2952": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2955": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2958": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2187": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2191": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2202": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2204": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2207": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2189": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2192": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2195": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2201": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2206": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2651": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2653": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2655": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2656": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2658": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2659": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2661": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2662": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2665": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2667": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2668": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2669": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2671": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2673": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2194": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2197": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2205": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2543": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2562": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2522": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 102
+    },
+    "2528": {
+        "group": [
+            "group2",
+            "group4",
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 155
+    },
+    "2533": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 112
+    },
+    "2729": {
+        "group": [
+            "group2",
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 93
+    },
+    "2737": {
+        "group": [
+            "group2",
+            "group4",
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 155
+    },
+    "2739": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 112
+    },
+    "2792": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2793": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2796": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2797": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2801": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2427": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2428": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2429": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2430": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2468": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2500": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 102
+    },
+    "2523": {
+        "group": [
+            "group2",
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 93
+    },
+    "2564": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2602": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2692": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 102
+    },
+    "2738": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 112
+    },
+    "2783": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2784": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2785": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2786": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2787": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2788": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2433": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 102
+    },
+    "2436": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2456": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 102
+    },
+    "2489": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 102
+    },
+    "2819": {
+        "group": [
+            "group2",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 93
+    },
+    "2815": {
+        "group": [
+            "group2",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 93
+    },
+    "2539": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 112
+    },
+    "2282": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2284": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2285": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2293": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2372": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2220": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2125": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2146": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2147": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2148": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2150": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2118": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2137": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2218": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2219": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2223": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2245": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2101": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2102": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2107": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2112": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2123": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2226": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2128": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2131": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2132": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2133": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2138": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2154": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2155": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2156": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2157": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2158": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2159": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2160": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2161": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2129": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2130": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2215": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2135": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2136": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2227": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2230": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2240": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2294": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2298": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2375": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2404": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2432": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2710": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 112
+    },
+    "2391": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2405": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2431": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2434": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2435": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2446": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2455": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 102
+    },
+    "2457": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2458": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2459": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2460": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2492": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2306": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2292": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2302": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2491": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2495": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2538": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 112
+    },
+    "2443": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2448": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2579": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 50
+    },
+    "2634": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 102
+    },
+    "2601": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2604": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 50
+    },
+    "2513": {
+        "group": [
+            "group2",
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 102
+    },
+    "2516": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2517": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 50
+    },
+    "2525": {
+        "group": [
+            "group2",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 93
+    },
+    "2536": {
+        "group": [
+            "group2",
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 155
+    },
+    "2541": {
+        "group": [
+            "group2",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 112
+    },
+    "2578": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 50
+    },
+    "2515": {
+        "group": [
+            "group2"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 50
+    },
+    "2912": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2937": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2938": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2949": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2935": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2939": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2941": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2940": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2944": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2950": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2951": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2959": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2960": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2962": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2964": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2290": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2478": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2479": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2481": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2546": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2231": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2281": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2472": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2477": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2480": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2675": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2676": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2677": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2679": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2680": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2681": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2682": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2683": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2684": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2685": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2686": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2687": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2688": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2689": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2208": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2210": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2287": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2593": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2804": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2811": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2812": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2818": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2820": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2821": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2825": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2827": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2829": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2833": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2839": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2846": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2847": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2789": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2790": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2791": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2795": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2799": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2800": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2802": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2803": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2805": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2806": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2807": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2808": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2809": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2813": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2814": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2816": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2817": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2822": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2826": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2828": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2603": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2794": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2798": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2810": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2365": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2368": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2385": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2309": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2337": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2165": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2175": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2221": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2233": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2254": {
+        "group": [
+            "group3",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 114
+    },
+    "2264": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2265": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2303": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2213": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2232": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2234": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2251": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2325": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2327": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2333": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2334": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2376": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2242": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2319": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2323": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2328": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2335": {
+        "group": [
+            "group3",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 114
+    },
+    "2162": {
+        "group": [
+            "group3",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 95
+    },
+    "2163": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2166": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2214": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2216": {
+        "group": [
+            "group3",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 95
+    },
+    "2224": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2225": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2229": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2238": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2243": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2244": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2246": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2247": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2249": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2217": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2222": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2228": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2241": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2248": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2277": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2317": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2320": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2297": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2369": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2437": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2447": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2493": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2501": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2502": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2503": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2499": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2508": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2511": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2512": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2550": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2551": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2552": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2553": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2554": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2555": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2556": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2572": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2597": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2313": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2314": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2318": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2349": {
+        "group": [
+            "group3",
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 114
+    },
+    "2351": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2310": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2520": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2526": {
+        "group": [
+            "group3",
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 114
+    },
+    "2504": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2488": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2496": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2399": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2637": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 52
+    },
+    "2606": {
+        "group": [
+            "group3",
+            "group4",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 157
+    },
+    "2630": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2635": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2702": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 52
+    },
+    "2563": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2575": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2576": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2639": {
+        "group": [
+            "group3",
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 95
+    },
+    "2641": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2642": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2643": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2645": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 52
+    },
+    "2773": {
+        "group": [
+            "group3",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 114
+    },
+    "2644": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 52
+    },
+    "2565": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2566": {
+        "group": [
+            "group3"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 52
+    },
+    "2975": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2978": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2979": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2984": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2942": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2945": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2946": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2954": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2956": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2957": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2961": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2963": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2972": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2968": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2969": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2974": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2981": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2970": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2557": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2559": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2560": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2590": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2646": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2649": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2483": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2484": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2485": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2486": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2487": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2690": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2721": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2722": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2723": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2724": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2725": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2727": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2730": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2731": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2732": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2755": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2759": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2760": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2761": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2336": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2471": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2473": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2691": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2728": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2848": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2849": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2854": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2859": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2863": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2865": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2867": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2870": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2872": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2873": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2875": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2877": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2831": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2832": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2835": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2836": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2837": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2838": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2840": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2843": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2844": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2845": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2850": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2851": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2853": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2855": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2857": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2858": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2861": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2864": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2866": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2868": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2823": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2824": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2830": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2834": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2842": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2852": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2374": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 105
+    },
+    "2384": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2393": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2469": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2470": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2352": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2704": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 105
+    },
+    "2305": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2331": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2343": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2347": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2348": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2354": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 105
+    },
+    "2235": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2316": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2403": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2407": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2409": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2411": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2420": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2421": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2363": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2377": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2408": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2419": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2518": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2250": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2092": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2275": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2276": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2330": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2362": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2367": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2370": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2379": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2381": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2401": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2402": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2239": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2324": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2364": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2321": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2322": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2326": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2329": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2332": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2360": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2382": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2416": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 43
+    },
+    "2509": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2524": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2549": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2633": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2638": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2650": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2598": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2599": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2600": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2605": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2631": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2632": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2636": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2648": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2654": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2657": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2660": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 105
+    },
+    "2695": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2696": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2697": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2699": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2353": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2355": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2398": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2540": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2400": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2519": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2529": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 105
+    },
+    "2497": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2521": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2532": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2703": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2707": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 105
+    },
+    "2715": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 43
+    },
+    "2716": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 105
+    },
+    "2705": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 105
+    },
+    "2706": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2711": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 105
+    },
+    "2717": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 105
+    },
+    "2720": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 43
+    },
+    "2726": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 105
+    },
+    "2745": {
+        "group": [
+            "group4",
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 105
+    },
+    "2694": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 43
+    },
+    "2567": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2570": {
+        "group": [
+            "group4"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 43
+    },
+    "2987": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2988": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2989": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2990": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2991": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2948": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2953": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2971": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2973": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2976": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2977": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2980": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2983": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2986": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2965": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2966": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2967": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2663": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2666": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2670": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2672": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2678": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2905": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2544": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2545": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2573": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2574": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2594": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2609": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2762": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2763": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2764": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2765": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2767": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2768": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2770": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2771": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2772": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2774": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2775": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2777": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2778": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2779": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2780": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2475": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2476": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2591": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2674": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2766": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2878": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2880": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2881": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2882": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2884": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2887": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2889": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2891": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2893": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2913": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2922": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2930": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2869": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2871": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2876": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2883": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2885": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2886": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2888": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2890": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2903": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2910": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2914": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2915": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2916": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2917": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2918": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2924": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2925": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2926": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2927": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2929": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2856": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2860": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2862": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2874": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2879": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2911": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2921": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2923": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2841": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2920": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2928": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2750": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2754": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2756": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2350": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2595": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2620": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2621": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2895": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2899": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 1,
+        "planed_usercount": 62
+    },
+    "2586": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2587": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2608": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2622": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2901": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2410": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2413": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2414": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2418": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2452": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2582": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2613": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2616": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2619": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2623": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2624": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2625": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2628": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2580": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2583": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2585": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2361": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2417": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2581": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2588": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2612": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2626": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2627": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2652": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2698": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2758": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2776": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2902": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2708": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2712": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2713": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2714": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2719": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2735": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2736": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2742": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2743": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2757": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2781": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2782": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2693": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2733": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2734": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2744": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2749": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2510": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2422": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2748": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2897": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 2,
+        "planed_usercount": 62
+    },
+    "2746": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2751": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2752": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2753": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2769": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 3,
+        "planed_usercount": 62
+    },
+    "2709": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 4,
+        "planed_usercount": 62
+    },
+    "2571": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2577": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    },
+    "2640": {
+        "group": [
+            "group5"
+        ],
+        "difficulty": 5,
+        "planed_usercount": 62
+    }
+}

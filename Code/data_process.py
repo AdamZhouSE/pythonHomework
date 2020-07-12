@@ -50,8 +50,23 @@ def delete_invaliduser(data, casecount=10):
     """
     newdata = {}
     for user_id, details in data.items():
-        if len(details["cases"]) > casecount:
+        if user_id == "61097":
+            i = 0
+            while i < len(details["cases"]):
+                if details["cases"][i]["case_id"] in {"2663", "2666", "2672"}:
+                    del details["cases"][i]
+                    i -= 1
+                i += 1
+        elif user_id == "60598":
+            i = 0
+            while i < len(details["cases"]):
+                if details["cases"][i]["case_id"] in {"2061", "2127", "2179", "2307", "2438", "2701"}:
+                    del details["cases"][i]
+                    i -= 1
+                i += 1
+        if user_id != "47329" and len(details["cases"]) > casecount:
             newdata[user_id] = details
+    save_as_file(newdata, "../Data/newtest_data.json")
     return newdata
 
 
@@ -97,6 +112,7 @@ def analyse(data: list):
         num_of_iscpp = 0  # 非python计数
         num_of_isco = 0  # 面向用例计数
         num_of_isanswer = 0  # 与答案一致计数
+        num_of_isiv = 0  # 无效代码计数
         for record in records:
             user_id = record["user_id"]
             upload_id = str(record["final_upload_id"])
@@ -107,6 +123,7 @@ def analyse(data: list):
                 record["num_of_line"] = 0
                 record["is_cpp"] = True
                 record["is_case-oriented"] = True
+                record["is_answer"] = True
 
                 # 代码行数
                 lst = da.calc_line_num(codepath)
@@ -130,6 +147,14 @@ def analyse(data: list):
                     record["is_case-oriented"] = flag_co
                     if flag_cpp == False and flag_co == True:
                         num_of_isco += 1
+
+                # 判定是否无效
+                if record["num_of_line"] == 0 \
+                    or record["is_cpp"]\
+                    or record["is_case-oriented"]\
+                    or record["is_answer"]:
+                    record["is_invalid"] = True
+                    num_of_isiv +=1
             except Exception as e:
                 print(e)
                 continue
@@ -138,6 +163,7 @@ def analyse(data: list):
         data[case_id]["num_of_isanswer"] = num_of_isanswer
         data[case_id]["num_of_iscpp"] = num_of_iscpp
         data[case_id]["num_of_isco"] = num_of_isco
+        data[case_id]["num_of_isiv"] = num_of_isiv
 
     return merge_grouping(data)
 
@@ -153,8 +179,8 @@ def save_as_file(data: dict, filename):
         json.dump(data, json_file, ensure_ascii=False, indent=4)
 
 
-def merge_grouping(data:dict):
-    with open('../Data/grouping.json', encoding='utf-8') as f:
+def merge_grouping(data: dict):
+    with open('../Data/new_cases_information.json', encoding='utf-8') as f:
         cases = json.loads(f.read())
     for case_id, details in data.items():
         data[case_id]["group"] = cases[case_id]["group"]

@@ -12,7 +12,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "49405",
@@ -23,7 +24,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60581",
@@ -34,7 +36,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60587",
@@ -45,7 +48,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60604",
@@ -56,7 +60,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60606",
@@ -67,7 +72,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60616",
@@ -78,7 +84,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60619",
@@ -89,7 +96,8 @@
             "num_of_line": 2,
             "is_cpp": false,
             "is_case-oriented": true,
-            "is_answer": false
+            "is_answer": false,
+            "is_invalid": true
         },
         {
             "user_id": "60631",
@@ -100,7 +108,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60634",
@@ -111,7 +120,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60635",
@@ -133,7 +143,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60654",
@@ -144,7 +155,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60665",
@@ -166,7 +178,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60676",
@@ -177,7 +190,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60686",
@@ -188,7 +202,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60708",
@@ -199,7 +214,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60715",
@@ -210,7 +226,8 @@
             "num_of_line": 1,
             "is_cpp": false,
             "is_case-oriented": true,
-            "is_answer": false
+            "is_answer": false,
+            "is_invalid": true
         },
         {
             "user_id": "60737",
@@ -221,7 +238,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60752",
@@ -232,7 +250,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60760",
@@ -243,7 +262,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60762",
@@ -254,7 +274,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60763",
@@ -265,7 +286,8 @@
             "num_of_line": 2,
             "is_cpp": false,
             "is_case-oriented": true,
-            "is_answer": false
+            "is_answer": false,
+            "is_invalid": true
         },
         {
             "user_id": "60769",
@@ -276,7 +298,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60772",
@@ -287,7 +310,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60773",
@@ -298,7 +322,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60775",
@@ -320,7 +345,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60785",
@@ -331,7 +357,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60788",
@@ -342,7 +369,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60799",
@@ -353,7 +381,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60812",
@@ -364,7 +393,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60829",
@@ -386,7 +416,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60833",
@@ -397,7 +428,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60870",
@@ -408,7 +440,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60885",
@@ -419,7 +452,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60895",
@@ -430,7 +464,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60896",
@@ -441,7 +476,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "60899",
@@ -452,7 +488,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "61019",
@@ -463,7 +500,8 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
+            "is_answer": true,
+            "is_invalid": true
         },
         {
             "user_id": "61053",
@@ -474,7 +512,8 @@
             "num_of_line": 1,
             "is_cpp": false,
             "is_case-oriented": true,
-            "is_answer": false
+            "is_answer": false,
+            "is_invalid": true
         },
         {
             "user_id": "61094",
@@ -496,34 +535,26 @@
             "num_of_line": 38,
             "is_cpp": false,
             "is_case-oriented": false,
-            "is_answer": true
-        },
-        {
-            "user_id": "60598",
-            "final_score": 100,
-            "upload_times": 2,
-            "final_upload_id": 233630,
-            "final_code_url": "http://mooctest-dev.oss-cn-shanghai.aliyuncs.com/data/answers/4240/60598/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%9F%BA%E7%A1%80_1581926807380.zip",
-            "num_of_line": 2,
-            "is_cpp": false,
-            "is_case-oriented": true,
-            "is_answer": false
+            "is_answer": true,
+            "is_invalid": true
         }
     ],
-    "total_upload_times": 64,
-    "user_count": 46,
+    "total_upload_times": 62,
+    "user_count": 45,
     "num_of_testCases": 1,
     "num_of_isanswer": 36,
     "num_of_iscpp": 0,
-    "num_of_isco": 5,
+    "num_of_isco": 4,
+    "num_of_isiv": 40,
     "group": [
         "group1"
     ],
     "difficulty": 1,
-    "planed_usercount": 55,
-    "average": 97.82608695652173,
+    "planed_usercount": 47,
+    "average": 97.77777777777777,
     "median": 100.0,
-    "std": 14.744195615489716,
-    "num_of_full-score": 45,
-    "num_of_valid_full-score": 4
+    "std": 14.9071198499986,
+    "num_of_full-score": 44,
+    "num_of_valid_full-score": 4,
+    "pass_rate": 0.0851063829787234
 }

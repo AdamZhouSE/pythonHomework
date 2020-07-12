@@ -45,7 +45,7 @@ def DL(data: dict, path):
     for case_id, details in data.items():
         if case_id not in haveSorted:
             records = details["records"]
-            # user_count = 0
+            user_count = 0
             for record in records:
                 user_id = record["user_id"]
                 for up in record["upload_records"]:
@@ -56,12 +56,12 @@ def DL(data: dict, path):
                         download(case_id, user_id, upload_id, code_url, path)
                     except:
                         continue
-                # user_count += 1
-                # print(user_id + "------" + str(user_count))
+                user_count += 1
+                print(user_id + "------" + str(user_count))
             case_count += 1
-            # print(case_id + "-------------------------" + str(case_count))
+            print(case_id + "-------------------------" + str(case_count))
             haveSorted.append(case_id)
-            # print(sorted(haveSorted))
+            print(sorted(haveSorted))
 
 
 def download(case_id, user_id, upload_id, url, path):
@@ -95,7 +95,7 @@ def download(case_id, user_id, upload_id, url, path):
 if __name__ == '__main__':
     filename = '../Data/Database of Mooctest.json'
     haveSorted = []
-    delete(haveSorted, filename)
+    #delete(haveSorted, filename)
 
     with open(filename, 'r', encoding='utf-8') as f:
         res = f.read()

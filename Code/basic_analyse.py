@@ -24,7 +24,8 @@ def basic_analyse(data: dict):
         details["std"] = grades.std()  # 标准差
         details["user_count"] = len(records)  # 做题人数
         details["num_of_full-score"] = int(grades.value_counts()[100])  # 计算满分人数
-        details["num_of_valid_full-score"] = details["num_of_full-score"] - details["num_of_isanswer"]- details["num_of_iscpp"] - details["num_of_isco"]
+        details["num_of_valid_full-score"] = details["num_of_full-score"] - details["num_of_isiv"]  # 计算实际满分人数
+        details["pass_rate"] = details["num_of_valid_full-score"]/details["planed_usercount"]
 
     return data
 
