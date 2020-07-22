@@ -137,7 +137,7 @@ def analyse(data: list):
                         num_of_isanswer += 1
 
                     # 检测是否为cpp代码
-                    flag_cpp = da.detect_cpp(codepath)
+                    flag_cpp = da.detect_no_py(codepath)
                     record["is_cpp"] = flag_cpp
                     if flag_cpp:
                         num_of_iscpp += 1

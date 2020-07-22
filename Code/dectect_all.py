@@ -32,8 +32,7 @@ def detect_is_answer(answerpath, codepath):
         return False
 
 
-# 检测cpp
-def detect_cpp(filename):  # 检测C++代码: 代码中有头文件或者注释方法使用了//
+def detect_no_py(filename):  # 检测非python代码
     with open(filename, encoding="utf-8") as fp:
         content_list = fp.readlines()
         for content in content_list:
@@ -42,9 +41,21 @@ def detect_cpp(filename):  # 检测C++代码: 代码中有头文件或者注释�
             if content.startswith("#include"):
                 # print(content)
                 return True
-            if content.startswith("//"):
+            # 1491
+            if content.startswith("//") or content.startswith("/*") or content.startswith("<!--"):
                 # print(content)
                 return True
+            if content.startswith("private") or content.startswith("public") or content.startswith("protected"):
+                # print(content)
+                return True
+            # 1543
+            if content.startswith("exec(bytes.from"):
+                # print(content)
+                return True
+            if content.startswith("if") and "//" in content and "(" in content and ":" not in content:
+                print(content)
+                return True
+
     return False
 
 

@@ -54,4 +54,4 @@ if __name__ == '__main__':
         for case_id, details in data.items():
             for name in ["case_zip", "records", "num_of_testCases", "group", "median", "std"]:
                 del details[name]
-    save_as_file(data, "../Data/simplifiedDatabase of Mooctest.json")
+    save_as_file(data, "../Data/final_data.json")
