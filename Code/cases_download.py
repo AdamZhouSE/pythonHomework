@@ -11,25 +11,6 @@ import zipfile as z
 import requests
 
 
-def callbackfunc(blocknum, blocksize, totalsize):
-    percent = 100 * blocknum * blocksize / totalsize
-    if percent > 100:
-        percent = 100
-    print("%.2f%%" % percent)
-
-
-def delete(haveSorted, filename):
-    with open(filename, 'r', encoding='utf-8') as f:
-        res = f.read()
-        data = json.loads(res)
-        for code_id in haveSorted:
-            if code_id in data.keys():
-                del data[code_id]
-
-    with open(filename, 'w', encoding='utf-8') as json_file:
-        json.dump(data, json_file, ensure_ascii=False, indent=4)
-
-
 def upzip(zip_src, dst_dir):
     fz = z.ZipFile(zip_src, 'r')
     for filename in ["readme.md", ".mooctest/answer.py", ".mooctest/testCases.json"]:
@@ -49,7 +30,7 @@ def DL(data: dict, path):
                 continue
 
             case_count += 1
-            # print(case_id + "-------------------------" + str(case_count))
+            print(case_id + "-------------------------" + str(case_count))
             haveSorted.append(case_id)
             # print(sorted(haveSorted))
 
@@ -85,5 +66,6 @@ if __name__ == '__main__':
     with open(filename, 'r', encoding='utf-8') as f:
         data = json.loads(f.read())
         # print(len(data.keys()))
+        os.mkdir("Cases")
         os.chdir(os.getcwd() + "/Cases")
         DL(data, os.getcwd())
