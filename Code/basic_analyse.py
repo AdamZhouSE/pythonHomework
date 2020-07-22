@@ -29,18 +29,18 @@ def basic_analyse(data: dict):
 
 
 if __name__ == '__main__':
-    '''
-    # 处理mooctest数据
-    with open('..//Data/Database of Mooctest.json', encoding='utf-8') as f:
-        data = json.loads(f.read())
-        save_as_file(basic_analyse(data), '..//Data/updatedDatabase of Mooctest.json')
 
-    # 调取题号为2061的数据
-    with open('../Data/updatedDatabase of Mooctest.json', encoding='utf-8') as f:
-        data = json.loads(f.read())
-        data = data["2061"]
-        save_as_file(data, '2061.json')
-    '''
+    # # 处理mooctest数据
+    # with open('..//Data/Database of Mooctest.json', encoding='utf-8') as f:
+    #     data = json.loads(f.read())
+    #     save_as_file(basic_analyse(data), '..//Data/updatedDatabase of Mooctest.json')
+    #
+    # # 调取题号为2061的数据
+    # with open('../Data/updatedDatabase of Mooctest.json', encoding='utf-8') as f:
+    #     data = json.loads(f.read())
+    #     data = data["2061"]
+    #     save_as_file(data, '2061.json')
+
     with open('../Data/updatedDatabase of Mooctest.json', encoding='utf-8') as f:
         data = json.loads(f.read())
         user_info = {}

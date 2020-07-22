@@ -1,11 +1,14 @@
 """
 检测提交中不是python的代码
+1. 代码使用头文件#include
+2. 代码使用非python注释 // 或 /* 或 <!---->
+3. 非python类声明 public private protected
 """
 
 import os
 
 
-def detect_cpp(filename):  # 检测C++代码: 代码中有头文件或者注释方法使用了//
+def detect_no_py(filename):  # 检测非python代码
     with open(filename, encoding="utf-8") as fp:
         content_list = fp.readlines()
         for content in content_list:
@@ -14,9 +17,21 @@ def detect_cpp(filename):  # 检测C++代码: 代码中有头文件或者注释�
             if content.startswith("#include"):
                 # print(content)
                 return True
-            if content.startswith("//"):
+            # 1491
+            if content.startswith("//") or content.startswith("/*") or content.startswith("<!--"):
                 # print(content)
                 return True
+            if content.startswith("private") or content.startswith("public") or content.startswith("protected"):
+                # print(content)
+                return True
+            # 1543
+            if content.startswith("exec(bytes.from"):
+                # print(content)
+                return True
+            if content.startswith("if") and "//" in content and "(" in content and ":" not in content:
+                print(content)
+                return True
+
     return False
 
 
@@ -33,10 +48,10 @@ def count_file():  # 读取文件夹,便于测试
                 if dir_user != ".DS_Store":
                     for file in os.listdir(os.getcwd() + "/CodeRecords" + "/" + dir_case + "/" + dir_user):
                         filename = os.getcwd() + "/CodeRecords" + "/" + dir_case + "/" + dir_user + "/" + file
-                        if detect_cpp(filename):
+                        if detect_no_py(filename):
                             # print(fileName)
                             cnt += 1
-    print("使用C++数量: ", cnt)
+    print("使用非python数量: ", cnt)
     print("题目总数: ", cnt_test)
 
 
