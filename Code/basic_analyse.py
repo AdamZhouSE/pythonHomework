@@ -1,3 +1,26 @@
+"""
+基本分析
+求出每道题的平均值，中位数，标准差，做题人数和实际通过人数
+汇总为final_data.json
+数据格式示例:
+"2081": {
+        "case_id": "2081",
+        "case_type": "字符串",
+        "total_upload_times": 81,
+        "user_count": 45,
+        "num_of_isanswer": 0,  是否抄袭
+        "num_of_iscpp": 0, 是否是非python代码
+        "num_of_isco": 2,  是否是面向用例
+        "num_of_isiv": 2,  总计无效代码数量
+        "difficulty": 2,   预估难度
+        "planed_usercount": 47,
+        "average": 100.0,
+        "num_of_full-score": 45,
+        "num_of_valid_full-score": 43,
+        "pass_rate": 0.9148936170212766
+    },
+"""
+
 import json
 import pandas as pd
 

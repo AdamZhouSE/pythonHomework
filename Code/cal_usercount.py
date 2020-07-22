@@ -1,3 +1,7 @@
+"""
+计算每组人数和对应题目
+"""
+
 import json
 import os
 import pandas as pd
