@@ -13,6 +13,7 @@
 import json
 import pandas as pd
 import os
+import numpy as np
 
 pd.set_option('display.unicode.ambiguous_as_wide', True)
 pd.set_option('display.unicode.east_asian_width', True)
@@ -44,10 +45,14 @@ def get_data_plus(types):
         res[type_name]["avg_up_rate"] = sum_of_up_rate.mean()
         res[type_name]["mid_up_rate"] = sum_of_up_rate.median()
         res[type_name]["std_up_rate"] = sum_of_up_rate.std()
+        res[type_name]["var_up_rate"] = sum_of_up_rate.var()
         sum_of_pass_rate = pd.Series([case["pass_rate"] for case_id, case in cases.items()])
         res[type_name]["avg_pass_rate"] = sum_of_pass_rate.mean()
         res[type_name]["mid_pass_rate"] = sum_of_pass_rate.median()
         res[type_name]["std_pass_rate"] = sum_of_pass_rate.std()
+        res[type_name]["var_pass_rate"] = sum_of_pass_rate.var()
+        res[type_name]["correlation"] = sum_of_up_rate.corr(sum_of_pass_rate)
+        print(sum_of_up_rate.corr(sum_of_pass_rate))
     return res
 
 
