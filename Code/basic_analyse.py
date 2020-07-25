@@ -18,11 +18,13 @@
         "num_of_full-score": 45,
         "num_of_valid_full-score": 43,
         "pass_rate": 0.9148936170212766
+        "avg_lines": 平均行数
     },
 """
 
 import json
 import pandas as pd
+import numpy as np
 
 pd.set_option('display.unicode.ambiguous_as_wide', True)
 pd.set_option('display.unicode.east_asian_width', True)
@@ -34,6 +36,8 @@ def save_as_file(data: dict, filename):
 
 
 def basic_analyse(data: dict):
+    avg_lines = get_lines()
+    i = 0
     for case_id, details in data.items():
         records = details["records"]
 
@@ -49,12 +53,35 @@ def basic_analyse(data: dict):
         details["num_of_full-score"] = int(grades.value_counts()[100])  # 计算满分人数
         details["num_of_valid_full-score"] = details["num_of_full-score"] - details["num_of_isiv"]  # 计算实际满分人数
         details["pass_rate"] = details["num_of_valid_full-score"]/details["planed_usercount"]
-
+        details["avg_lines"] = avg_lines[i]
+        i += 1
     return data
 
 
+def get_lines(): # 获取代码行数
+    lines = []
+    with open("../Data/updatedDatabase of Mooctest.json", 'r', encoding="utf-8") as fi:
+        data = json.loads(fi.read())
+        for case_id, details in data.items():
+            for record in details["records"]:
+                lines.append([case_id, record["num_of_line"]])
+    print(lines)
+    res = []
+    for case_id, details in data.items():
+        res.append(get_avg_lines(case_id, lines))
+    print(res)
+    return res
+
+
+def get_avg_lines(cid, data):
+    avg = []
+    for i in range(0, len(data)):
+        if cid == data[i][0]:
+            avg.append(data[i][1])
+    return np.mean(avg)
+
+
 if __name__ == '__main__':
-    ''''''
     # 处理mooctest数据
     with open('..//Data/Database of Mooctest.json', encoding='utf-8') as f:
         data = json.loads(f.read())

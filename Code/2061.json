@@ -555,5 +555,6 @@
     "std": 14.9071198499986,
     "num_of_full-score": 44,
     "num_of_valid_full-score": 4,
-    "pass_rate": 0.0851063829787234
+    "pass_rate": 0.0851063829787234,
+    "avg_lines": 34.6
 }
