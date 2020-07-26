@@ -46,12 +46,12 @@ def get_data_plus(types):
         if type_name not in res.keys():
             res[type_name] = {"cases": cases}
         sum_of_up_rate = pd.Series([case["up_rate"] for case_id, case in cases.items()])
-        res[type_name]["avg_up_rate"] = geometric_mean(sum_of_up_rate) # 平均比率-几何平均数
+        res[type_name]["avg_up_rate"] = np.mean(sum_of_up_rate) # 平均比率-几何平均数
         res[type_name]["mid_up_rate"] = sum_of_up_rate.median() # 中位数
         res[type_name]["mode_up_rate"] = stats.mode(sum_of_up_rate)[0][0] # 求众数
         res[type_name]["std_up_rate"] = sum_of_up_rate.std() # 标准差
         sum_of_pass_rate = pd.Series([case["pass_rate"] for case_id, case in cases.items()])
-        res[type_name]["avg_pass_rate"] = geometric_mean(sum_of_pass_rate)
+        res[type_name]["avg_pass_rate"] = np.mean(sum_of_pass_rate)
         res[type_name]["mid_pass_rate"] = sum_of_pass_rate.median()
         res[type_name]["mode_pass_rate"] = stats.mode(sum_of_pass_rate)[0][0]
         res[type_name]["std_pass_rate"] = sum_of_pass_rate.std()

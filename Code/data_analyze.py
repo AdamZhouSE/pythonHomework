@@ -5,8 +5,8 @@
 
 import json
 import pandas as pd
-import os
 import numpy as np
+from decimal import Decimal
 
 pd.set_option('display.unicode.ambiguous_as_wide', True)
 pd.set_option('display.unicode.east_asian_width', True)
@@ -22,7 +22,7 @@ def get_difficulty(data):
     u = [] # 上传率
     li = [] # 代码行数
     avg = []
-    avg_al = [] # 算术平均数
+    avg_all = [] # 算术平均数
     for types in data.items():
         avg.append(types[1]["avg_pass_rate"])
         cor_pu = (types[1]["correlation_pu"]) # 通过率与上传率的相关系数
@@ -33,15 +33,15 @@ def get_difficulty(data):
                     u.append(case[1]["up_rate"]*cor_pu)
                     li.append(case[1]["avg_lines"]*cor_pl)
                     d.append((1 - case[1]["pass_rate"]))  # 1-该题通过率
-                    avg_al.append(case[1]["pass_rate"])
+                    avg_all.append(case[1]["pass_rate"])
     # 映射到区间[1,5]
     d1 = map_to(1, 5, d) # 映射后的试题难度
     u1 = map_to(1, 5, u)
     li1 = map_to(1, 5, li)
     final_d = []
     for i in range(0, len(d1)):
-        # 在整体通过率稳定的情况下，用上传次数和代码行数进行修正，将大家提交次数较多的题目难度提升
-        final_d.append(get_final_d(d1[i], u1[i], li1[i], 0.9, 0.05))
+        # 用上传次数和代码行数进行修正
+        final_d.append(get_final_d(d1[i], u1[i], li1[i], 0.875, 0.0625))
     cnt_easy = 0
     cnt_medium = 0
     cnt_hard = 0
@@ -56,8 +56,7 @@ def get_difficulty(data):
     print("medium: ", cnt_medium, cnt_medium/882)
     print("hard: ", cnt_hard, cnt_hard/882)
     print("难度系数均值:", np.mean(final_d))
-    print("修正前通过率几何平均值:", geometric_mean(avg))
-    print("修正前通过率算术平均值:", np.mean(avg_al))
+    print("修正前通过率均值:", np.mean(avg_all))
     print("修正后均值:", 1-(np.mean(final_d)-1)/4)
     return final_d
 
@@ -78,9 +77,11 @@ def get_diff_by_degree(degree): # 根据难度系数获取题目难度
 def geometric_mean(data):  # 计算几何平均数
     total = 1
     for i in data:
-        total *= i
+        if i == 0:
+            continue
+        total *= Decimal(str(format(i, ".2f")))
         # print(float(format(i, ".2f")))
-    return total ** (1/len(data))
+    return total ** Decimal(1.0/len(data))
 
 
 def map_to(start, end, data): # 将数据映射到指定区间
@@ -114,4 +115,4 @@ if __name__ == "__main__":
     with open("../Data/final_data.json", 'r', encoding="utf-8") as f:
         _data = json.loads(f.read())
         result = get_result(_data, final_data)
-        save_as_file(result, "../Data/result.json")
+        # save_as_file(result, "../Data/result.json")
