@@ -23,12 +23,15 @@ def get_difficulty(data):
     li = [] # 代码行数
     avg = []
     avg_all = [] # 算术平均数
+    num_of_cases = []
     for types in data.items():
         avg.append(types[1]["avg_pass_rate"])
         cor_pu = (types[1]["correlation_pu"]) # 通过率与上传率的相关系数
         cor_pl = (types[1]["correlation_pl"]) # 通过率与代码行数的相关系数
         for cases in types[1].items(): # 类别
             if cases[0] == 'cases':
+                print(types[0], len(cases[1]))
+                num_of_cases.append([types[0], len(cases[1])])
                 for case in cases[1].items():
                     u.append(case[1]["up_rate"]*cor_pu)
                     li.append(case[1]["avg_lines"]*cor_pl)
@@ -41,7 +44,7 @@ def get_difficulty(data):
     final_d = []
     for i in range(0, len(d1)):
         # 用上传次数和代码行数进行修正
-        final_d.append(get_final_d(d1[i], u1[i], li1[i], 0.875, 0.0625))
+        final_d.append(get_final_d(d1[i], u1[i], li1[i], 0.846, 0.084))
     cnt_easy = 0
     cnt_medium = 0
     cnt_hard = 0
@@ -57,7 +60,8 @@ def get_difficulty(data):
     print("hard: ", cnt_hard, cnt_hard/882)
     print("难度系数均值:", np.mean(final_d))
     print("修正前通过率均值:", np.mean(avg_all))
-    print("修正后均值:", 1-(np.mean(final_d)-1)/4)
+    print("修正后均值:", 1-np.mean(map_to(0, 1, final_d)))
+    print(avg)
     return final_d
 
 
