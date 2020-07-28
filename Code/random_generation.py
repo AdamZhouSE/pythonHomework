@@ -1,7 +1,7 @@
 """
-抽取n道题目，期望试卷难度系数为d
 随机算法实现组卷
-遗传算法实现组卷
+设置需要n道题目，期望试卷难度系数为de
+检测试卷是否符合约束条件，符合则组卷成功
 """
 from enum import Enum
 import json
@@ -79,8 +79,11 @@ def detect_success_rate(data, cnt, de, times):
     results = []
     for i in range(0, times):
         res = random_generate(data, cnt, de)
-        # if res[0]:
-        #     return res[1]
+        if res[0]:
+            degrees = []
+            for case in res[1]:
+                degrees.append(case[2])
+            print(np.mean(degrees))
         results.append(res[0])
     print(results.count(True))
     print(results.count(True)/times)
@@ -89,6 +92,6 @@ def detect_success_rate(data, cnt, de, times):
 if __name__ == "__main__":
     with open("../Data/result.json", 'r', encoding="utf-8") as f:
         _data = json.loads(f.read())
-    detect_success_rate(_data, 200, 2.66, 10000)
+    detect_success_rate(_data, 200, 2.66, 1000)
 
 
